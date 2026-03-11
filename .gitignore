@@ -1,0 +1,7 @@
+.env
+/vendor
+/node_modules
+/assets/dist
+/public/assets/js
+/public/assets/css
+log.txt

@@ -1,0 +1,138 @@
+<?php
+
+// Array de idiomas permitidos
+$langs = ['es', 'eu'];
+
+//Array asociativo (3 nieveles) para determinar las url permitidas y asociarles el recurso de la vista que corresponda
+$arrayRutasGet = [
+    'es' => [
+        '/es' => [
+            'view'      => '/views/inicio.php',
+            'content'   => 'inicio'
+        ],
+        '/es/sobre-nosotros' => [
+            'view'      => '/views/quienesSomos.php',
+            'content'   => 'quienesSomos'
+        ],
+        '/es/productos' => [
+            'view'      => '/views/productos.php',
+            'content'   => 'productos'
+        ],
+        '/es/contacto' => [
+            'view'      => '/views/contacto.php',
+            'content'   => 'contacto'
+        ],
+
+        '/es/showroom' => [
+            'view'      => '/views/templates.php',
+            'content'   => 'showroom'
+        ],
+        '/es/terminos-legales' => [
+            'view'      => '/views/terminos.php',
+            'content'   => 'terminos'
+        ],
+        '/es/gracias' => [
+            'view'      => '/views/gracias.php',
+            'content'   => 'gracias'
+        ],
+        
+        '/es/productos/panaderia' => [
+            'view'      => '/views/producto.php',
+            'content'   => 'panaderia'
+        ],
+        '/es/productos/pasteleria' => [
+            'view'      => '/views/producto.php',
+            'content'   => 'pasteleria'
+        ],
+        '/es/productos/torrijas' => [
+            'view'      => '/views/producto.php',
+            'content'   => 'torrijas'
+        ],
+        '/es/zona-admin' => [
+            'view'      => '/views/zonaAdmin.php',
+            'content'   => 'zonaAdmin'
+        ],
+        '/es/logout' => [
+            'view'      => '/views/logout.php',
+            'content'   => 'logout'
+        ],
+        '/es/registro' => [
+            'view'      => '/views/logup.php',
+            'content'   => 'logup'
+        ],
+    ],
+    'eu' => [
+        '/eu' => [
+            'view'      => '/views/inicio.php',
+            'content'   => 'inicio'
+        ],
+        '/eu/guri-buruz' => [
+            'view'      => '/views/quienesSomos.php',
+            'content'   => 'quienesSomos'
+        ],
+        '/eu/produktuak' => [
+            'view'      => '/views/productos.php',
+            'content'   => 'productos'
+        ],
+        '/eu/kontaktua' => [
+            'view'      => '/views/contacto.php',
+            'content'   => 'contacto'
+        ],
+        '/eu/showroom' => [
+            'view'      => '/views/templates.php',
+            'content'   => 'showroom'
+        ],
+        '/eu/legezko-terminoak' => [
+            'view'      => '/views/terminos.php',
+            'content'   => 'terminos'
+        ],
+        '/eu/eskerrikasko' => [
+            'view'      => '/views/gracias.php',
+            'content'   => 'gracias'
+        ],
+        '/eu/produktuak/okindegia' => [
+            'view'      => '/views/producto.php',
+            'content'   => 'panaderia'
+        ],
+        '/eu/produktuak/goxotegia' => [
+            'view'      => '/views/producto.php',
+            'content'   => 'pasteleria'
+        ],
+        '/eu/produktuak/torrijak' => [
+            'view'      => '/views/producto.php',
+            'content'   => 'torrijas'
+        ],
+        '/eu/admin-gunea' => [
+            'view'      => '/views/zonaAdmin.php',
+            'content'   => 'zonaAdmin'
+        ],
+        '/eu/logout' => [
+            'view'      => '/views/logout.php',
+            'content'   => 'logout'
+        ],
+        '/eu/erregistroa' => [
+            'view'      => '/views/logup.php',
+            'content'   => 'logup'
+        ],
+    ]
+];
+
+// Array de rutas permitidas para peticiones POST (formularios)
+$arrayRutasPost = [
+    '/app/artForm' => [
+        'view' => '/app/artForm.php',
+    ],
+    '/app/artFormLogin' => [
+        'view' => '/app/artFormLogin.php',
+    ],
+    '/app/artFormLogup' => [
+        'view' => '/app/artFormLogup.php',
+    ],
+    '/app/artForm02' => [
+        'view' => '/app/artForm02.php',
+    ],
+    '/app/artForm03' => [
+        'view' => '/app/artForm03.php',
+    ],
+];
+
