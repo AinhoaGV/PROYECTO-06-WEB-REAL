@@ -49,135 +49,109 @@
 
     <!-- HERO01 -->
     <header>
-        <h1><?= $hero_h1 ?></h1>
+        <h1>Ainhoa Gómez Vallejo<br>Front-End Developer & Diseñadora UX/UI</h1>
         <div>
-            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/panaderia-aginaga-logo.svg" alt="">
+            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logo-agv.svg" alt="">
         </div>
         <a href="<?=$_ENV['RUTA']?>/es/contacto" class="boton"><?= $hero_cta ?></a>
     </header>
 
     <main>
-        <!-- SECCION PRESENTACION -->
-        <section class="sect01">
-            <div class="h2Especial">
-                <span></span>
-                <h2><?= $presentacion_h2 ?></h2>
-            </div>
 
+        <!-- Sección 01 -->
+        <section class="sect01">
+            <!-- <div class="h2Especial">
+                <span></span>
+                <h2>Encabezado h2 de la sect01</h2>
+            </div> -->
             <article>
+                <!-- hijo 1 -->
                 <div>
-                    <h3><?= $presentacion_h3 ?></h3>
-                    <p><?= $presentacion_p ?></p>
+                    <h2 class="title">Donde el diseño funcional se encuentra con el código limpio</h2>
+                    <p>Busco el equilibrio perfecto entre estética y funcionalidad. Mis proyectos no solo son atractivos, sino que sino que también son prácticos. Diseño interfaces que guían al usuario de forma intuitiva, asegurando que cada interacción sea la más lógica y fluida.</p>
                     <span></span>
                     <div class="cards">
                         <div class="card">
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/people-outline.svg" alt="">
-                            <h4><?= $card1_h4 ?></h4>
-                            <p><?= $card1_p ?></p>
-                            <a href="<?=$_ENV['RUTA']?>/es/sobre-nosotros" class="moduloBoton01">
-                                <span><?= $card1_cta ?></span>
-                                <img src="<?=$_ENV['RUTA']?>/assets/img/system/arrow-forward-outline.svg" alt="" title="">
-                            </a>
+                            <img src="https://dummyimage.com/40x40" alt="">
+                            <h3 class="card-title">UI y Prototipado de alta fidelidad</h3>
+                            <p>Me gusta trabajar en los proyectos en los que antes de desarrollar, defino la experiencia visual. Creo prototipos que permiten validar la navegación y el diseño final. Esto garantiza el correcto planteamiento del producto final.</p>
                         </div>
                         <div class="card">
-                            <img src="<?=$_ENV['RUTA']?>/assets/img/system/star-outline.svg" alt="">
-                            <h4><?= $card2_h4 ?></h4>
-                            <p><?= $card2_p ?></p>
-                            <a href="<?=$_ENV['RUTA']?>/es/productos" class="moduloBoton01">
-                                <span><?= $card2_cta ?></span>
-                                <img src="<?=$_ENV['RUTA']?>/assets/img/system/arrow-forward-outline.svg" alt="" title="">
-                            </a>
+                            <img src="https://dummyimage.com/40x40" alt="">
+                            <h3 class="card-title">Maquetación avanzada y Desarrollo Frontend</h3>
+                            <p>Traduzco estos diseños complejos a código limpio. Utilizo estándares modernos para asegurar que la web sea rápida, accesible y fácil de mantener. Mi enfoque en el frontend ayuda a una mejor experiencia de usuario.</p>
                         </div>
                     </div>
-                    <a href="<?=$_ENV['RUTA']?>/es/contacto" class="moduloBoton02">
-                        <span><?= $presentacion_cta ?></span>
-                        <img src="<?=$_ENV['RUTA']?>/assets/img/system/arrow-forward-outline.svg" alt="Mas de 100 anos ofreciendo la mejor calidad en Agina" title="Mas de 100 anos ofreciendo la mejor calidad en Agina">
+                    <a href="" class="moduloBoton02">
+                        <span>Contacta con nosotros</span>
+                        <img src="<?=$_ENV['RUTA'];?>/assets/img/system/arrow-forward-outline.svg" alt="" title="">
                     </a>
                 </div>
+                <!-- hijo 2 -->
                 <div>
-                    <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/panaderia-pasteleria-aginaga-1500.avif" alt="" title="">
+                    <img src="https://dummyimage.com/1000x1500" alt="">
                 </div>
             </article>
         </section>
 
-        <!-- SECCION SOBRE NOSOTROS -->
         <section>
-            <div class="h2Especial">
-                <span></span>
-                <h2><?= $sobre_h2 ?></h2>
-            </div>
-            <article class="art03">
-                <h3><?= $sobre_h3 ?></h3>
 
-                <p><?= $sobre_p1 ?></p>
-
-                <p><?= $sobre_p2 ?></p>
-
-                <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/panaderas-profesionales-1500.avif" alt="Equipo de panaderos de Aginaga trabajando en el obrador" title="Equipo de panaderos de Aginaga">
-            </article>
-
-            <article class="art05">
-                <h3><?= $historia_h3 ?></h3>
-                <p><?= $historia_p1 ?></p>
-                <p><?= $historia_p2 ?></p>
-                <a href="<?=$_ENV['RUTA']?>/es/sobre-nosotros" class="boton"><?= $historia_cta ?></a>
-            </article>
-
-            <article class="art06">
-                <div>
-                    <h3><?= $servicio_h3 ?></h3>
-                    <p><?= $servicio_p1 ?></p>
-                    <p><?= $servicio_p2 ?></p>
-                    <a href="<?=$_ENV['RUTA']?>/es/contacto" title="" class="boton"><?= $servicio_cta ?></a>
-                </div>
-            </article>
-
-        </section>
-
-        <!-- SECCION PRODUCTOS -->
-        <section>
-            <div class="h2Especial">
-                <span></span>
-                <h2><?= $productos_h2 ?></h2>
-            </div>
-
+            <!-- Artículo 02-bis -->
             <article class="art02-bis">
                 <div class="textos">
-                    <h3><?= $productos_h3 ?></h3>
-                    <p><?= $productos_p ?></p>
-                    <a href="<?=$_ENV['RUTA']?>/es/productos" class="moduloBoton02">
-                        <span><?= $productos_cta ?></span>
-                        <img src="<?=$_ENV['RUTA']?>/assets/img/system/arrow-forward-outline.svg" alt="Ir a Nuestros productos" title="Mas informacion">
+                    <h3 class="title">La mejor calidad en productos realizados cada día</h3>                  
+                    <p>Nuestra carta de productos se actualiza cada estación, pero se fundamenta en tres pilares que definen nuestra identidad. En primer lugar, el <b>pan de masa madre</b> que fermenta durante 24 horas, desarrollando una corteza crujiente y un alveolado irregular lleno de sabor y nutrientes: es el favorito de quienes nos buscan como “<b>panadería en Aginaga</b>” o “<b>pan masa madre en Usurbil</b>”. En segundo lugar, nuestros <b>pasteles artesanos</b>, elaborados con mantequilla y huevos de caserío, sin aromas artificiales, con rellenos de temporada como crema de avellana de Navarra o compota de manzana reineta. Finalmente, las <b>torrijas</b>, inspiradas en la receta de la amona pero disponibles todo el año; las servimos con miel de azahar o con un delicado almíbar de vainilla bourbon que las hace inolvidables. Cada producto cuenta con su propio proceso cuidadoso, fichas de alérgenos actualizadas y la posibilidad de <b>reserva online</b> para que llegues y lo tengas listo. Además, nuestras famosas <b>torrijas de Aginaga</b> pueden reservarse en línea para cualquier celebración, destacando nuestra <b>panadería en Aginaga</b> como la opción preferida para un dulce tradicional.</p>
+                    <a href="./productos-panaderia.php" class="moduloBoton02">
+                        <span>Más información</span>
+                        <img src="<?=$_ENV['RUTA'];?>/assets/img/system/arrow-forward-outline.svg" alt="Ir a Nuestros productos" title="Más información">
                     </a>
                 </div>
 
-                <div class="imagenes">
-                    <a href="<?=$_ENV['RUTA']?>/es/productos#hitoPanes" title="Los mejores panes de masa madre">
-                        <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/amplio-surtido-panes-1200.avif" alt="Pan de masa madre en Usurbil y Aginaga" title="Pan de masa madre en Usurbil y Aginaga">
-                        <h4><?= $img_card1_h4 ?></h4>
+                <div class="imagenes">                    
+                    <a href="<?=$_ENV['RUTA'];?>/es/productos" title="Los mejores panes de masa madre">
+                        <img src="https://dummyimage.com/1500x900" alt="Pan de masa madre en Usurbil y Aginaga" title="Pan de masa madre en Usurbil y Aginaga">
+                        <h4 class="title">Branding</h4>
                     </a>
-                    <a href="<?=$_ENV['RUTA']?>/es/productos#hitoPasteles" title="Pasteleria artesana bajo demanda">
-                        <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/amplio-surtido-pasteles-1200.avif" alt="Pasteles artesanos: del obrador a tu mesa" title="Pasteles artesanos: del obrador a tu mesa">
-                        <h4><?= $img_card2_h4 ?></h4>
+                    <a href="<?=$_ENV['RUTA'];?>/es/productos" title="Pastelería artesana bajo demanda">
+                        <img src="https://dummyimage.com/1500x900" alt="Pasteles artesanos: del obrador a tu mesa" title="Pasteles artesanos: del obrador a tu mesa">
+                        <h4 class="title">Diseño UX/UI</h4>
                     </a>
-                    <a href="<?=$_ENV['RUTA']?>/es/productos#hitoTorrijas" title="Torrijas tradicionales a fuego lento">
-                        <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/las-mejores-torrijas-de-gipuzkoa1200.avif" alt="Torrijas tradicionales todo el ano" title="Torrijas tradicionales todo el ano">
-                        <h4><?= $img_card3_h4 ?></h4>
-                    </a>
+                    <a href="<?=$_ENV['RUTA'];?>/es/productos" title="Torrijas tradicionales a fuego lento">
+                        <img src="https://dummyimage.com/1500x900" alt="Torrijas tradicionales todo el año" title="Torrijas tradicionales todo el año">
+                        <h4 class="title">Desarrollo Web</h4>
+                    </a>                    
                 </div>
             </article>
 
-            <article class="art01">
-                <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/masa-madre.avif" alt="Masa madre de panaderia artesanal" title="Masa madre de panaderia artesanal">
-                <div>
-                    <h3><?= $masa_h3 ?></h3>
-                    <p><?= $masa_p ?></p>
-                    <a href="<?=$_ENV['RUTA']?>/es/quienes-somos" class="moduloBoton02">
-                        <span><?= $masa_cta ?></span>
-                        <img src="<?=$_ENV['RUTA']?>/assets/img/system/arrow-forward-outline.svg" alt="" title="">
-                    </a>
+
+            <!-- artículo 4 -->
+            <article class="art04">
+                <h2>Opiniones: La experiencia de trabajar conmigo</h2>
+                <span class="ralla"></span>
+                <div class="contenedor-fichas">
+                    <div class="ficha">
+                        <h4>E.E.A - Desarrolladora Web</h4>
+                        <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/avatar-01.png" alt="" title="">                        
+                        <p>Ainhoa es una diseñadora gráfica y desarrolladora web todo-terreno...Es una gran profesional, responsable, proactiva con una gran iniciativa..</p>
+                        <span class="ralla"></span>
+                    </div>
+
+                    <div class="ficha">
+                        <h4>J.M.V. - Gestor de proyectos</h4>
+                        <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/avatar-02.png" alt="" title="">                        
+                        <p>“Ainhoa siempre ha demostrado ser una persona honesta, trabajadora y en la que se puede confiar totalmente...con grandes cualidades para su trabajo...</p>
+                        <span class="ralla"></span>
+                    </div>
+
+                    <div class="ficha">
+                        <h4>N.M.L. - Frontend Developer</h4>
+                        <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/avatar-03.png" alt="" title="">                        
+                        <p>Ainhoa es una persona multidisciplinar con un excelente gusto estético, lo que potencia su habilidad en el ámbito del diseño gráfico..</p>
+                        <span class="ralla"></span>
+                    </div>
+
                 </div>
-            </article>
+            </article>            
         </section>
 
     </main>

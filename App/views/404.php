@@ -37,7 +37,7 @@ $contenido404 && extract($contenido404);
 <body>
     <?php include $appRoot . '/includes/body_global.php' ?>
     <main>
-        <img src="<?=$_ENV['RUTA']?>/assets/img/logos/panaderia-aginaga-logo.svg" alt="<?= $logo_alt ?>" title="<?= $logo_title ?>">
+        <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logo-agv.svg" alt="<?= $logo_alt ?>" title="<?= $logo_title ?>">
         <h1><?= $h1 ?></h1>
         <a href="<?=$_ENV['RUTA']?>/es" class="boton"><?= $cta_inicio ?></a>
     </main>

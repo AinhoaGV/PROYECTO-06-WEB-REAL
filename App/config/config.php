@@ -10,19 +10,30 @@ $arrayRutasGet = [
             'view'      => '/views/inicio.php',
             'content'   => 'inicio'
         ],
-        '/es/sobre-nosotros' => [
-            'view'      => '/views/quienesSomos.php',
-            'content'   => 'quienesSomos'
+        '/es/sobre-mi' => [
+            'view'      => '/views/sobre-mi.php',
+            'content'   => 'sobreMi'
         ],
-        '/es/productos' => [
-            'view'      => '/views/productos.php',
-            'content'   => 'productos'
+        '/es/portfolio' => [
+            'view'      => '/views/portfolio.php',
+            'content'   => 'portfolio'
+        ],
+        '/es/portfolio/branding' => [
+            'view'      => '/views/portfolio-item.php',
+            'content'   => 'branding'
+        ],
+        '/es/portfolio/ux-ui-design' => [
+            'view'      => '/views/portfolio-item.php',
+            'content'   => 'uxUiDesign'
+        ],
+        '/es/portfolio/desarrollo-web' => [
+            'view'      => '/views/portfolio-item.php',
+            'content'   => 'desarrolloWeb'
         ],
         '/es/contacto' => [
             'view'      => '/views/contacto.php',
             'content'   => 'contacto'
         ],
-
         '/es/showroom' => [
             'view'      => '/views/templates.php',
             'content'   => 'showroom'
@@ -31,50 +42,49 @@ $arrayRutasGet = [
             'view'      => '/views/terminos.php',
             'content'   => 'terminos'
         ],
-        '/es/gracias' => [
-            'view'      => '/views/gracias.php',
-            'content'   => 'gracias'
-        ],
-        
-        '/es/productos/panaderia' => [
-            'view'      => '/views/producto.php',
-            'content'   => 'panaderia'
-        ],
-        '/es/productos/pasteleria' => [
-            'view'      => '/views/producto.php',
-            'content'   => 'pasteleria'
-        ],
-        '/es/productos/torrijas' => [
-            'view'      => '/views/producto.php',
-            'content'   => 'torrijas'
-        ],
-        '/es/zona-admin' => [
-            'view'      => '/views/zonaAdmin.php',
-            'content'   => 'zonaAdmin'
-        ],
-        '/es/logout' => [
-            'view'      => '/views/logout.php',
-            'content'   => 'logout'
-        ],
-        '/es/registro' => [
-            'view'      => '/views/logup.php',
-            'content'   => 'logup'
-        ],
+        // '/es/gracias' => [
+        //     'view'      => '/views/gracias.php',
+        //     'content'   => 'gracias'
+        // ],
+        // '/es/zona-admin' => [
+        //     'view'      => '/views/zonaAdmin.php',
+        //     'content'   => 'zonaAdmin'
+        // ],
+        // '/es/logout' => [
+        //     'view'      => '/views/logout.php',
+        //     'content'   => 'logout'
+        // ],
+        // '/es/registro' => [
+        //     'view'      => '/views/logup.php',
+        //     'content'   => 'logup'
+        // ],
     ],
     'eu' => [
         '/eu' => [
             'view'      => '/views/inicio.php',
             'content'   => 'inicio'
         ],
-        '/eu/guri-buruz' => [
-            'view'      => '/views/quienesSomos.php',
-            'content'   => 'quienesSomos'
+        '/eu/niri-buruz' => [
+            'view'      => '/views/sobre-mi.php',
+            'content'   => 'sobreMi'
         ],
-        '/eu/produktuak' => [
-            'view'      => '/views/productos.php',
-            'content'   => 'productos'
+        '/eu/portfolioa' => [
+            'view'      => '/views/portfolio.php',
+            'content'   => 'portfolio'
         ],
-        '/eu/kontaktua' => [
+        '/eu/portfolioa/branding' => [
+            'view'      => '/views/portfolio-item.php',
+            'content'   => 'branding'
+        ],
+        '/eu/portfolioa/ux-ui-design' => [
+            'view'      => '/views/portfolio-item.php',
+            'content'   => 'uxUiDesign'
+        ],
+        '/eu/portfolioa/web-garapena' => [
+            'view'      => '/views/portfolio-item.php',
+            'content'   => 'desarrolloWeb'
+        ],
+        '/eu/harremanetan-jarri' => [
             'view'      => '/views/contacto.php',
             'content'   => 'contacto'
         ],
@@ -86,34 +96,22 @@ $arrayRutasGet = [
             'view'      => '/views/terminos.php',
             'content'   => 'terminos'
         ],
-        '/eu/eskerrikasko' => [
-            'view'      => '/views/gracias.php',
-            'content'   => 'gracias'
-        ],
-        '/eu/produktuak/okindegia' => [
-            'view'      => '/views/producto.php',
-            'content'   => 'panaderia'
-        ],
-        '/eu/produktuak/goxotegia' => [
-            'view'      => '/views/producto.php',
-            'content'   => 'pasteleria'
-        ],
-        '/eu/produktuak/torrijak' => [
-            'view'      => '/views/producto.php',
-            'content'   => 'torrijas'
-        ],
-        '/eu/admin-gunea' => [
-            'view'      => '/views/zonaAdmin.php',
-            'content'   => 'zonaAdmin'
-        ],
-        '/eu/logout' => [
-            'view'      => '/views/logout.php',
-            'content'   => 'logout'
-        ],
-        '/eu/erregistroa' => [
-            'view'      => '/views/logup.php',
-            'content'   => 'logup'
-        ],
+        // '/eu/eskerrikasko' => [
+        //     'view'      => '/views/gracias.php',
+        //     'content'   => 'gracias'
+        // ],
+        // '/eu/admin-gunea' => [
+        //     'view'      => '/views/zonaAdmin.php',
+        //     'content'   => 'zonaAdmin'
+        // ],
+        // '/eu/logout' => [
+        //     'view'      => '/views/logout.php',
+        //     'content'   => 'logout'
+        // ],
+        // '/eu/erregistroa' => [
+        //     'view'      => '/views/logup.php',
+        //     'content'   => 'logup'
+        // ],
     ]
 ];
 

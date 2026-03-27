@@ -1,42 +1,59 @@
 @use 'resources/config' as c;
 @use 'resources/global';
 
+
 @use 'resources/sect01';
+@use 'resources/art02-bis';
+@use 'resources/art04';
+
 @use 'resources/moduloBoton01';
 @use 'resources/moduloBoton02';
-@use 'resources/art02-bis';
-@use 'resources/art03';
-@use 'resources/art05';
-@use 'resources/art06';
-@use 'resources/art01';
 
 
 
 header{
-    background-image: url('../img/vistas/inicio/panaderia-pasteleria-aginaga-1500.avif');
+    background-image: url('../img/vistas/inicio/ainhoa-gomez-vallejo-1280.avif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     @media only screen and (min-width:c.$tablet){
-        background-image: url('../img/vistas/inicio/panaderia-pasteleria-aginaga-1800.avif');
+        background-image: url('../img/vistas/inicio/ainhoa-gomez-vallejo-1900.avif');
     }
     @media only screen and (min-width:c.$desktop){
-        background-image: url('../img/vistas/inicio/panaderia-pasteleria-aginaga-2560.avif');
-    }
-    h1{
-        color: c.$color00; 
-    }
-}
-
-.art03{
-    img{
-        object-position: 0 -100px;
+        background-image: url('../img/vistas/inicio/ainhoa-gomez-vallejo-2256.avif');
     }
 }
 
 
+.sect01{
+    article{
+        // div de textos
+        >:nth-child(1){
+            .title{
+                color: c.$color01;
+                font-size: clamp(1rem, 3vw, 2rem);
+                font-weight: 400;
+                font-family: c.$fuenteTextos;
+            }
+        }
+        .card{
+            .card-title{
+                color: c.$color02;
+                font-size: 1.2rem;
+                font-family: c.$fuenteTitulos;
+            }
+        }
+    }
+}
 
-
-
-
+.art04{
+    .contenedor-fichas{
+        .ficha{
+            width: 31%;
+            img{
+                background-color: c.$color02;
+            }
+        }
+    }
+}

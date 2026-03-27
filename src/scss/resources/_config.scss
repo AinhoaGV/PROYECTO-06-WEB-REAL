@@ -17,17 +17,23 @@
 
 // Configuración de fuentes
 @font-face {
-    font-family: 'Open Sans';
-    src: url('../../fonts/OpenSans-VariableFont_wdth\,wght.ttf');
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Regular.ttf');
+    font-weight: 400;
 }
 @font-face {
-    font-family: 'Staatliches';
-    src: url('../../fonts/Staatliches-Regular.ttf');
+    font-family: 'Montserrat';
+    src: url('../../fonts/Montserrat-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../../fonts/BebasNeue-Regular.ttf');
 }
 
 // Variables del proyecto
-$fuenteTitulos:'Staatliches';
-$fuenteTextos:'Open Sans';
+$fuenteTitulos:'Bebas Neue';
+$fuenteTextos:'Montserrat';
 
 $color00:white;
 $color00svg: invert(100%) sepia(0%) saturate(7500%) hue-rotate(172deg) brightness(106%) contrast(106%);
@@ -58,8 +64,7 @@ h1{
     font-size: clamp(2rem, 6vw, 8rem);
     text-align: center;     
     color: $color02;
-    letter-spacing: 10px;
-    width: 90%;    
+    width: 80%;    
 }
 h2{
     color: $color01bis;

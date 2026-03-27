@@ -6,7 +6,7 @@
 </label>
 
 <nav>
-    <img src="<?=$_ENV['RUTA']?>/assets/img/logos/panaderia-aginaga-logo.svg" alt="<?= $nav_logo_alt ?>" title="<?= $nav_logo_title ?>" width="100" height="40">
+    <img src="<?=$_ENV['RUTA']?>/assets/img/logos/ainhoa-gomez-vallejo.svg" alt="<?= $nav_logo_alt ?>" title="<?= $nav_logo_title ?>" width="120" height="40">
 
     <?php
     include $appRoot . '/includes/enlaces_menu.php'

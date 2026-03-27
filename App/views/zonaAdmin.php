@@ -66,7 +66,7 @@ if (isset($_SESSION['LOGIN']) && $_SESSION['LOGIN'] === "1") {
     <header>        
         <h1><?= $hero_h1 ?></h1>
         <div>            
-            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/panaderia-aginaga-logo.svg" alt="">
+            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logo-agv.svg" alt="">
         </div>
 
         <?php

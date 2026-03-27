@@ -32,7 +32,7 @@
             <article>
                 <!-- hijo 1 -->
                 <div>
-                    <h3>Encabezado h3</h3>
+                    <h3 class="title">Encabezado h3</h3>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae vitae amet rem earum maiores similique provident dolorem sunt odit sequi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
                     <span></span>
                     <div class="cards">
@@ -156,7 +156,7 @@
             <!-- Artículo 02-bis -->
             <article class="art02-bis">
                 <div class="textos">
-                    <h3>La mejor calidad en productos realizados cada día</h3>                  
+                    <h3 class="title">La mejor calidad en productos realizados cada día</h3>                  
                     <p>Nuestra carta de productos se actualiza cada estación, pero se fundamenta en tres pilares que definen nuestra identidad. En primer lugar, el <b>pan de masa madre</b> que fermenta durante 24 horas, desarrollando una corteza crujiente y un alveolado irregular lleno de sabor y nutrientes: es el favorito de quienes nos buscan como “<b>panadería en Aginaga</b>” o “<b>pan masa madre en Usurbil</b>”. En segundo lugar, nuestros <b>pasteles artesanos</b>, elaborados con mantequilla y huevos de caserío, sin aromas artificiales, con rellenos de temporada como crema de avellana de Navarra o compota de manzana reineta. Finalmente, las <b>torrijas</b>, inspiradas en la receta de la amona pero disponibles todo el año; las servimos con miel de azahar o con un delicado almíbar de vainilla bourbon que las hace inolvidables. Cada producto cuenta con su propio proceso cuidadoso, fichas de alérgenos actualizadas y la posibilidad de <b>reserva online</b> para que llegues y lo tengas listo. Además, nuestras famosas <b>torrijas de Aginaga</b> pueden reservarse en línea para cualquier celebración, destacando nuestra <b>panadería en Aginaga</b> como la opción preferida para un dulce tradicional.</p>
                     <a href="./productos-panaderia.php" class="moduloBoton02">
                         <span>Más información</span>
@@ -166,16 +166,16 @@
 
                 <div class="imagenes">                    
                     <a href="<?=$_ENV['RUTA'];?>/es/productos" title="Los mejores panes de masa madre">
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/inicio/amplio-surtido-panes-1200.avif" alt="Pan de masa madre en Usurbil y Aginaga" title="Pan de masa madre en Usurbil y Aginaga">
-                        <h4>Panadería</h4>
+                        <img src="https://dummyimage.com/1500x900" alt="Pan de masa madre en Usurbil y Aginaga" title="Pan de masa madre en Usurbil y Aginaga">
+                        <h4 class="title">Panadería</h4>
                     </a>
                     <a href="<?=$_ENV['RUTA'];?>/es/productos" title="Pastelería artesana bajo demanda">
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/inicio/amplio-surtido-pasteles-1200.avif" alt="Pasteles artesanos: del obrador a tu mesa" title="Pasteles artesanos: del obrador a tu mesa">
-                        <h4>Pastelería</h4>
+                        <img src="https://dummyimage.com/1500x900" alt="Pasteles artesanos: del obrador a tu mesa" title="Pasteles artesanos: del obrador a tu mesa">
+                        <h4 class="title">Pastelería</h4>
                     </a>
                     <a href="<?=$_ENV['RUTA'];?>/es/productos" title="Torrijas tradicionales a fuego lento">
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/inicio/las-mejores-torrijas-de-gipuzkoa1200.avif" alt="Torrijas tradicionales todo el año" title="Torrijas tradicionales todo el año">
-                        <h4>Torrijas</h4>
+                        <img src="https://dummyimage.com/1500x900" alt="Torrijas tradicionales todo el año" title="Torrijas tradicionales todo el año">
+                        <h4 class="title">Torrijas</h4>
                     </a>                    
                 </div>
             </article>
@@ -365,30 +365,30 @@
             </article>
             <!-- art10 -->
             <article class="art10">
-            <div>
-                <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/productos/pan.avif" alt="Pan">
-            </div>
-            <div>
-                <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/productos/pan.avif" alt="Pan">
-            </div>
-            <div>
-                <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/productos/pan.avif" alt="Pan">
-            </div>
-            <div>
-                <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/productos/pan.avif" alt="Pan">
-            </div>
-            <div>
-                <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/productos/pan.avif" alt="Pan">
-            </div>
-            <div>
-                <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/productos/pan.avif" alt="Pan">
-            </div>
-            <div>
-                <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/productos/pan.avif" alt="Pan">
-            </div>
-            <div>
-                <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/productos/pan.avif" alt="Pan">
-            </div>
+                <div>
+                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                </div>
+                <div>
+                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                </div>
+                <div>
+                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                </div>
+                <div>
+                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                </div>
+                <div>
+                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                </div>
+                <div>
+                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                </div>
+                <div>
+                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                </div>
+                <div>
+                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                </div>
             </article>
             <!-- art11 -->
             <article class="art11">

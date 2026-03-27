@@ -62,7 +62,7 @@
     </div>
 
     <div>
-        <img src="<?=$_ENV['RUTA']?>/assets/img/logos/panaderia-aginaga-logo.svg" alt="<?= $footer_logo_alt ?>" title="<?= $footer_logo_title ?>" width="200" height="80">
+        <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logo-agv.svg" alt="<?= $footer_logo_alt ?>" title="<?= $footer_logo_title ?>" width="200" height="80">
         <div>
             <p><?= $footer_desc ?></p>
             <div id="zonaTerminos">

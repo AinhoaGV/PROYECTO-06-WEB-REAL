@@ -61,7 +61,7 @@
     <header>        
         <h1><?= $hero_h1 ?> <?php  if(isset($_GET['nombre'])){ echo $nombre;} ?></h1>
         <div>            
-            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/panaderia-aginaga-logo.svg" alt="Logotipo Panaderia Aginaga" title="Panaderia Aginaga">
+            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logo-agv.svg" alt="Logotipo Panaderia Aginaga" title="Panaderia Aginaga">
         </div>
         <a href="<?=$_ENV['RUTA']?>/es" class="boton" title="Encuentra Panaderia Aginaga"><?= $hero_cta ?></a>     
     </header>
