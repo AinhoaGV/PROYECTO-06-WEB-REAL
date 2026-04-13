@@ -120,13 +120,13 @@ if ($con === false) {
 
 // recoger más variables que necesita el phpMailer:correo emisor y el nombre emisor,el correo receptor y su nombre, título del correo
 $correoEmisor =$_ENV['EMAIL_WEB']; //debe ser un correo que esté dado de alta en el servidor (webda.eus)
-$nombreEmisor ="Panadería Aginaga";
+$nombreEmisor ="Ainhoa Gomez";
 $correoDestinatario = $email;
 $nombreDestinatario= $nombre;
 
 switch ($lang){
     case 'es':
-        $asunto = "Hemos recibido tu correo, $nombre - Panadería Aginaga";
+        $asunto = "Hemos recibido tu correo, $nombre - Ainhoa Gomez";
         $cuerpo='
         <!DOCTYPE html>
         <html lang="'.$lang.'">
@@ -158,7 +158,7 @@ switch ($lang){
             </table>
 
             <p>Gracias por escribirnos.</p>
-            <p>Equipo de Panadería Agianga</p>
+            <p>Ainhoa Gomez</p>
             <a href="'.$_ENV['RUTA'].'/'.$lang.'">'.$_ENV['RUTA'].'/'.$lang.'</a>
             
         </body> 
@@ -217,7 +217,7 @@ include __DIR__ . "/envioPhpMailer.php"; //necesite ejecutar el envío de correo
 // enviar un correo al admin de la web
 // recoger más variables que necesita el phpMailer:correo emisor y el nombre emisor,el correo receptor y su nombre, título del correo
 $correoEmisor =$_ENV['EMAIL_WEB'];
-$nombreEmisor ="Web Panadería";
+$nombreEmisor ="Ainhoa Gomez";
 $correoDestinatario = $_ENV['EMAIL_ADMIN'];
 $nombreDestinatario= "Admin de la web";
 $asunto = "Has recibido una nueva consulta en la web de $nombre";
@@ -260,7 +260,7 @@ $cuerpo='
     </table>
 
     <p>Un saludo</p>
-    <p>Equipo de Panadería Agianga</p>
+    <p>Ainhoa Gomez</p>
     <a href="'.$_ENV['RUTA'].'">'.$_ENV['RUTA'].'</a>
 
 </body> 

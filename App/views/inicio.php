@@ -53,7 +53,7 @@
         <div>
             <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logo-agv.svg" alt="">
         </div>
-        <a href="<?=$_ENV['RUTA']?>/es/contacto" class="boton"><?= $hero_cta ?></a>
+        <a href="<?=$_ENV['RUTA']?><?= $ruta_contacto ?>" class="boton"><?= $hero_cta ?></a>
     </header>
 
     <main>
@@ -72,18 +72,18 @@
                     <span></span>
                     <div class="cards">
                         <div class="card">
-                            <img src="https://dummyimage.com/40x40" alt="">
+                            <img src="<?=$_ENV['RUTA'];?>/assets/img/icons/icon-design.svg" alt="">
                             <h3 class="card-title">UI y Prototipado de alta fidelidad</h3>
                             <p>Me gusta trabajar en los proyectos en los que antes de desarrollar, defino la experiencia visual. Creo prototipos que permiten validar la navegación y el diseño final. Esto garantiza el correcto planteamiento del producto final.</p>
                         </div>
                         <div class="card">
-                            <img src="https://dummyimage.com/40x40" alt="">
+                            <img src="<?=$_ENV['RUTA'];?>/assets/img/icons/icon-layout.svg" alt="">
                             <h3 class="card-title">Maquetación avanzada y Desarrollo Frontend</h3>
                             <p>Traduzco estos diseños complejos a código limpio. Utilizo estándares modernos para asegurar que la web sea rápida, accesible y fácil de mantener. Mi enfoque en el frontend ayuda a una mejor experiencia de usuario.</p>
                         </div>
                     </div>
-                    <a href="" class="moduloBoton02">
-                        <span>Contacta con nosotros</span>
+                    <a href="<?=$_ENV['RUTA']?><?= $ruta_sobre_mi ?>" class="moduloBoton02">
+                        <span>Más sobre mi</span>
                         <img src="<?=$_ENV['RUTA'];?>/assets/img/system/arrow-forward-outline.svg" alt="" title="">
                     </a>
                 </div>
@@ -99,26 +99,26 @@
             <!-- Artículo 02-bis -->
             <article class="art02-bis">
                 <div class="textos">
-                    <h3 class="title">La mejor calidad en productos realizados cada día</h3>                  
-                    <p>Nuestra carta de productos se actualiza cada estación, pero se fundamenta en tres pilares que definen nuestra identidad. En primer lugar, el <b>pan de masa madre</b> que fermenta durante 24 horas, desarrollando una corteza crujiente y un alveolado irregular lleno de sabor y nutrientes: es el favorito de quienes nos buscan como “<b>panadería en Aginaga</b>” o “<b>pan masa madre en Usurbil</b>”. En segundo lugar, nuestros <b>pasteles artesanos</b>, elaborados con mantequilla y huevos de caserío, sin aromas artificiales, con rellenos de temporada como crema de avellana de Navarra o compota de manzana reineta. Finalmente, las <b>torrijas</b>, inspiradas en la receta de la amona pero disponibles todo el año; las servimos con miel de azahar o con un delicado almíbar de vainilla bourbon que las hace inolvidables. Cada producto cuenta con su propio proceso cuidadoso, fichas de alérgenos actualizadas y la posibilidad de <b>reserva online</b> para que llegues y lo tengas listo. Además, nuestras famosas <b>torrijas de Aginaga</b> pueden reservarse en línea para cualquier celebración, destacando nuestra <b>panadería en Aginaga</b> como la opción preferida para un dulce tradicional.</p>
-                    <a href="./productos-panaderia.php" class="moduloBoton02">
+                    <h2 class="title">Selección de proyectos destacados</h2>                  
+                    <p>A lo largo de mi trayectoria, he desarrollado soluciones para diversos sectores, desde e-commerce hasta sitios corporativos. Aquí presento una muestra de trabajos donde he liderado tanto la fase creativa como la implementación técnica, demostrando versatilidad y capacidad de adaptación a diferentes necesidades y lenguajes de programación.</p>
+                    <a href="<?=$_ENV['RUTA']?><?= $ruta_portfolio ?>" class="moduloBoton02">
                         <span>Más información</span>
                         <img src="<?=$_ENV['RUTA'];?>/assets/img/system/arrow-forward-outline.svg" alt="Ir a Nuestros productos" title="Más información">
                     </a>
                 </div>
 
                 <div class="imagenes">                    
-                    <a href="<?=$_ENV['RUTA'];?>/es/productos" title="Los mejores panes de masa madre">
-                        <img src="https://dummyimage.com/1500x900" alt="Pan de masa madre en Usurbil y Aginaga" title="Pan de masa madre en Usurbil y Aginaga">
-                        <h4 class="title">Branding</h4>
+                    <a href="<?=$_ENV['RUTA']?><?= $ruta_branding ?>" title="Identidad Visual y Branding corporativo">
+                        <img src="https://dummyimage.com/1500x900" alt="Identidad Visual y Branding corporativo" title="Identidad Visual y Branding corporativo">
+                        <h3 class="title">Identidad Visual y Branding corporativo</h3>
                     </a>
-                    <a href="<?=$_ENV['RUTA'];?>/es/productos" title="Pastelería artesana bajo demanda">
-                        <img src="https://dummyimage.com/1500x900" alt="Pasteles artesanos: del obrador a tu mesa" title="Pasteles artesanos: del obrador a tu mesa">
-                        <h4 class="title">Diseño UX/UI</h4>
+                    <a href="<?=$_ENV['RUTA']?><?= $ruta_design ?>" title="Diseño de interfaces centradas en el usuario">
+                        <img src="https://dummyimage.com/1500x900" alt="Diseño de interfaces centradas en el usuario" title="Diseño de interfaces centradas en el usuario">
+                        <h3 class="title">Diseño de interfaces centradas en el usuario</h3>
                     </a>
-                    <a href="<?=$_ENV['RUTA'];?>/es/productos" title="Torrijas tradicionales a fuego lento">
-                        <img src="https://dummyimage.com/1500x900" alt="Torrijas tradicionales todo el año" title="Torrijas tradicionales todo el año">
-                        <h4 class="title">Desarrollo Web</h4>
+                    <a href="<?=$_ENV['RUTA']?><?= $ruta_desarrollo ?>" title="Desarrollo a medida y ecosistemas CMS">
+                        <img src="https://dummyimage.com/1500x900" alt="Desarrollo a medida y ecosistemas CMS" title="Desarrollo a medida y ecosistemas CMS">
+                        <h3 class="title">Desarrollo a medida y ecosistemas CMS</h3>
                     </a>                    
                 </div>
             </article>
@@ -127,26 +127,27 @@
             <!-- artículo 4 -->
             <article class="art04">
                 <h2>Opiniones: La experiencia de trabajar conmigo</h2>
+                <p>La confianza de mis compañeros es mi mejor carta de presentación. Tras años de proyectos, he cultivado relaciones profesionales basadas en la transparencia, el cumplimiento de plazos y la calidad técnica. Estas reseñas reflejan mi capacidad para integrarme en equipos multidisciplinares y aportar valor real desde el primer día.</p>
                 <span class="ralla"></span>
                 <div class="contenedor-fichas">
                     <div class="ficha">
-                        <h4>E.E.A - Desarrolladora Web</h4>
+                        <h3 class="ficha-title">E.E.A<br>Desarrolladora Web</h3>
                         <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/avatar-01.png" alt="" title="">                        
-                        <p>Ainhoa es una diseñadora gráfica y desarrolladora web todo-terreno...Es una gran profesional, responsable, proactiva con una gran iniciativa..</p>
+                        <p>"Ainhoa es una diseñadora gráfica y desarrolladora web todo-terreno...Es una gran profesional, responsable, proactiva con una gran iniciativa.."</p>
                         <span class="ralla"></span>
                     </div>
 
                     <div class="ficha">
-                        <h4>J.M.V. - Gestor de proyectos</h4>
+                        <h3 class="ficha-title">J.M.V.<br>Gestor de proyectos</h3>
                         <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/avatar-02.png" alt="" title="">                        
-                        <p>“Ainhoa siempre ha demostrado ser una persona honesta, trabajadora y en la que se puede confiar totalmente...con grandes cualidades para su trabajo...</p>
+                        <p>"Ainhoa siempre ha demostrado ser una persona honesta, trabajadora y en la que se puede confiar totalmente...con grandes cualidades para su trabajo..."</p>
                         <span class="ralla"></span>
                     </div>
 
                     <div class="ficha">
-                        <h4>N.M.L. - Frontend Developer</h4>
+                        <h3 class="ficha-title">N.M.L.<br>Frontend Developer</h3>
                         <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/avatar-03.png" alt="" title="">                        
-                        <p>Ainhoa es una persona multidisciplinar con un excelente gusto estético, lo que potencia su habilidad en el ámbito del diseño gráfico..</p>
+                        <p>"Ainhoa es una persona multidisciplinar con un excelente gusto estético, lo que potencia su habilidad en el ámbito del diseño gráfico.."</p>
                         <span class="ralla"></span>
                     </div>
 

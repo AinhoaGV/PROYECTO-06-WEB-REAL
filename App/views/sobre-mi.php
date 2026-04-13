@@ -40,17 +40,26 @@
     <header>        
         <h1>Perfil híbrido: Creatividad técnica al servicio del producto</h1>
         <div>            
-            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logo-agv.svg" alt="Panaderia Aginaga" title="Panaderia Aginaga">
+            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logo-agv.svg" alt="Ainhoa Gomez" title="Ainhoa Gomez">
         </div>            
     </header>
 
     <main>
         <section>
-            <!-- H2 especial -->
-            <div class="h2Especial">
-                <span></span>
-                <h2>Encabezado h2 de la primera sección</h2>
-            </div>
+            <!-- Artículo 03 -->
+            <article class="art03">
+
+                <!-- H2 especial -->
+                <div class="h2Especial">
+                    <span></span>
+                    <h2>Qué aporto a mis proyectos</h2>
+                </div>
+
+                <p>Aporto una visión 360º del producto digital. Gracias a mi perfil híbrido, puedo liderar un proyecto desde la fase de boceto hasta el despliegue final en el servidor. Mi veteranía me permite anticipar problemas técnicos antes de que ocurran y ofrecer soluciones creativas que equilibran los deseos estéticos con las posibilidades técnicas.</p>
+
+                <img src="https://dummyimage.com/1500x900" alt="" title="">
+
+            </article>
 
             <!-- Artículo 01 -->
             <article class="art01">
@@ -88,27 +97,42 @@
 
                 <div>
                     <div class="contenedor-lista">
-                        <h4>h4</h4>
+                        <h4>Experiencia</h4>
                         <ul>
                             <li>
                                 <img src="<?=$_ENV['RUTA'];?>/assets/img/system/check.svg" alt="">
-                                <span>Lorem ipsum dolor sit amet.</span>
+                                <span>Osoigo SL<br>
+                                2024 - Presente (2 años y medio)<br>
+                                Maquetación SCSS en plantillas Django.<br>
+                                www.osoigonext.com</span>
                             </li>
                             <li>
                                 <img src="<?=$_ENV['RUTA'];?>/assets/img/system/check.svg" alt="">
-                                <span>Lorem ipsum dolor sit amet.</span>
+                                <span>Akting<br>
+                                2023 (4 meses y medio) - por sustitución<br>
+                                Diseños en figma y maquetación con SCSS.<br>
+                                www.akting.eu</span>
                             </li>
                             <li>
                                 <img src="<?=$_ENV['RUTA'];?>/assets/img/system/check.svg" alt="">
-                                <span>Lorem ipsum dolor sit amet.</span>
+                                <span>Aner Sistemas Informáticos<br>
+                                2007 - 2023 (16 años)<br>
+                                Diseño, Maquetación y Programación web. Wordpress, Joomla y Prestashop. Imagen Corporativa y Papelería.<br>
+                                www.aner.com</span>
                             </li>
                             <li>
                                 <img src="<?=$_ENV['RUTA'];?>/assets/img/system/check.svg" alt="">
-                                <span>Lorem ipsum dolor sit amet.</span>
+                                <span>Kitto<br>
+                                2006 (6 meses)<br>
+                                Diseño, Maquetación y Programación web. Imagen Corporativa y Papelería.<br>
+                                www.kitto.info</span>
                             </li>
                             <li>
                                 <img src="<?=$_ENV['RUTA'];?>/assets/img/system/check.svg" alt="">
-                                <span>Lorem ipsum dolor sit amet.</span>
+                                <span>Comeralia<br>
+                                2005 (3 meses)<br>
+                                Periodo de Prácticas de Diseño gráfico y Web, con oferta de empleo.<br>
+                                www.comeralia.com</span>
                             </li>
                         </ul>
                     </div>

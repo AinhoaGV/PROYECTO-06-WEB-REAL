@@ -83,7 +83,7 @@ if(comprobarCaracteres($mensaje, 5, 200)){
 // 3 Enviar emails
 $web = $_ENV["RUTA"];
 $correoEmisor = $_ENV["EMAIL_WEB"];
-$nombreEmisor = "Web Panadería";
+$nombreEmisor = "Ainhoa Gomez";
 $correoDestinatario = $_ENV["EMAIL_ADMIN"];
 $nombreDestinatario = "Admin de la web";
 $asunto = "Has recibido una nueva consulta en la web de $nombre";
@@ -136,7 +136,7 @@ if($con === false){
 // 5 enviar correos de aviso: a la empresa y al propio usuario
 $web = $_ENV["RUTA"];
 $correoEmisor = $_ENV["EMAIL_WEB"];
-$nombreEmisor = "Web Panadería";
+$nombreEmisor = "Ainhoa Gomez";
 $correoDestinatario = $email;
 $nombreDestinatario = $nombre;
 $asunto = "Gracias por contactar con nosotros, $nombre";

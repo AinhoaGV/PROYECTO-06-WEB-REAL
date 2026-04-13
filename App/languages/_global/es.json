@@ -36,55 +36,25 @@
     "menu_title_logout": "Salir",
     "ruta_logout": "/es/logout",
 
-    "nav_logo_alt": "Logotipo Panaderia Aginaga",
-    "nav_logo_title": "Panaderia Aginaga",
+    "nav_logo_alt": "Logotipo Ainhoa Gomez",
+    "nav_logo_title": "Ainhoa Gomez",
     "label_lang_eu": "eu",
     "label_lang_es": "es",
 
-    "footer_url_portfolio": "https://profe.webda.eus/",
-    "footer_title_portfolio": "Porfolio general",
-    "footer_text_portfolio": "Porfolio general",
+    "rrss_url_linkedin": "https://www.linkedin.com/in/ainhoa-gomez-vallejo/",
+    "rrss_title_linkedin": "Visita mi LinkedIn",
+    "rrss_alt_linkedin": "Visita mi LinkedIn",
 
-    "footer_url_academia": "https://www.areafor.com/",
-    "footer_title_academia": "Academia Area",
-    "footer_text_academia": "Academia Area",
+    "contact_url_email": "mailto:soy@ainhoagomez.com",
+    "contact_title_email": "Mándame un correo a la siguiente direccion soy@ainhoagomez.com",
+    "contact_text_email": "soy@ainhoagomez.com",
 
-    "rrss_url_facebook": "",
-    "rrss_title_facebook": "Facebook de Panaderia Aginaga",
-    "rrss_alt_facebook": "Facebook de Panaderia Aginaga",
+    "contact_title_direccion": "Soy de Zarautz",
+    "contact_text_direccion_linea2": "Zarautz, Gipuzkoa",
 
-    "rrss_url_linkedin": "https://www.linkedin.com/in/igor-aranaz-pastor/",
-    "rrss_title_linkedin": "Visita nuestro LinkedIn",
-    "rrss_alt_linkedin": "Visita nuestro LinkedIn",
-
-    "rrss_url_instagram": "",
-    "rrss_title_instagram": "Instagram de Panaderia Aginaga",
-    "rrss_alt_instagram": "Instagram de Panaderia Aginaga",
-
-    "rrss_url_youtube": "https://www.youtube.com/@LiquidArtDevelopers",
-    "rrss_title_youtube": "YouTube de Panaderia Aginaga",
-    "rrss_alt_youtube": "YouTube de Panaderia Aginaga",
-
-    "contact_url_tel": "tel:+34943123123",
-    "contact_title_tel": "Llamanos al 943 123 123",
-    "contact_text_tel": "943 123 123",
-
-    "contact_url_whatsapp": "https://api.whatsapp.com/send/?phone=34628749350",
-    "contact_title_whatsapp": "Escribenos al WhatsApp 600 123 123",
-    "contact_text_whatsapp": "600 123 123",
-
-    "contact_url_email": "mailto:aranaz@gmail.com",
-    "contact_title_email": "Mandanos un correo a la siguiente direccion correo@correo.com",
-    "contact_text_email": "correo@correo.com",
-
-    "contact_url_direccion": "https://maps.app.goo.gl/EB3bPiGW1yfoJg3p9",
-    "contact_title_direccion": "Estamos en Donostia en la direccion Paseo Portuetxe 23b, 413 Donostia",
-    "contact_text_direccion_linea1": "Paseo Portuetxe 23b",
-    "contact_text_direccion_linea2": "413 Donostia",
-
-    "footer_logo_alt": "Logotipo Panaderia Aginaga",
-    "footer_logo_title": "Panaderia Aginaga",
-    "footer_desc": "Desde 1932, en Panaderia Aginaga horneamos cada dia panes artesanos y reposteria tradicional elaborados con ingredientes locales de primera calidad. Ven a visitarnos y descubre nuestras especialidades recien hechas.",
+    "footer_logo_alt": "Logotipo Ainhoa Gomez",
+    "footer_logo_title": "Ainhoa Gomez",
+    "footer_desc": "Frontend Developer & UX/UI Designer",
 
     "ruta_terminos_legal": "/es/terminos-legales#legalZona",
     "ruta_terminos_cookies": "/es/terminos-legales#cookiesZona",

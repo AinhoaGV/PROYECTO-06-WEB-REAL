@@ -199,21 +199,21 @@
                 <span class="ralla"></span>
                 <div class="contenedor-fichas">
                     <div class="ficha">
-                        <h4>Encabezado h4</h4>
+                        <h4 class="ficha-title">Encabezado h4</h4>
                         <img src="https://dummyimage.com/90x90" alt="" title="">                        
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore libero exercitationem omnis quod placeat cumque nobis aspernatur illo! Accusamus, labore.</p>
                         <span class="ralla"></span>
                     </div>
 
                     <div class="ficha">
-                        <h4>Encabezado h4</h4>
+                        <h4 class="ficha-title">Encabezado h4</h4>
                         <img src="https://dummyimage.com/90x90" alt="" title="">                        
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore libero exercitationem omnis quod placeat cumque nobis aspernatur illo! Accusamus, labore.</p>
                         <span class="ralla"></span>
                     </div>
 
                     <div class="ficha">
-                        <h4>Encabezado h4</h4>
+                        <h4 class="ficha-title">Encabezado h4</h4>
                         <img src="https://dummyimage.com/90x90" alt="" title="">                        
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore libero exercitationem omnis quod placeat cumque nobis aspernatur illo! Accusamus, labore.</p>
                         <span class="ralla"></span>

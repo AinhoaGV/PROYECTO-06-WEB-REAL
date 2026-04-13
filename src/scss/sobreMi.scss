@@ -2,6 +2,7 @@
 @use 'resources/global';
 
 @use 'resources/art01';
+@use 'resources/art03';
 @use 'resources/art08';
 @use 'resources/art09';
 
@@ -30,7 +31,13 @@ header{
     }
 }
 
-
+.art01{
+    &.reverse{
+        @media only screen and (min-width:c.$tablet){
+            flex-direction: row-reverse;
+        }
+    }
+}
 .art03{
     img{
         @media only screen and (min-width:c.$tablet){
