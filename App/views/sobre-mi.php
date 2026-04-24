@@ -98,14 +98,15 @@
                 <div>
                     <div class="contenedor-lista">
                         <h4>Experiencia</h4>
-                        <ul>
-                            <li>
-                                <img src="<?=$_ENV['RUTA'];?>/assets/img/system/check.svg" alt="">
-                                <span>Osoigo SL<br>
-                                2024 - Presente (2 años y medio)<br>
-                                Maquetación SCSS en plantillas Django.<br>
-                                www.osoigonext.com</span>
-                            </li>
+                        <div class="ficha">
+                            <img src="<?=$_ENV['RUTA'];?>/assets/img/icons/icon-work.svg" alt="">
+                            <div class="ficha-data">
+                                <h5 class="ficha-title">Osoigo SL</h5>
+                                <p><span>2024 - Presente (2 años y medio)</span><br>
+                                <span>Maquetación SCSS en plantillas Django.</span><br>
+                                <span>www.osoigonext.com</span></p>
+                            </div>
+                        </div>
                             <li>
                                 <img src="<?=$_ENV['RUTA'];?>/assets/img/system/check.svg" alt="">
                                 <span>Akting<br>
