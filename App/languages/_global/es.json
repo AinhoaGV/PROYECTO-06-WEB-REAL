@@ -56,9 +56,9 @@
     "footer_logo_title": "Ainhoa Gomez",
     "footer_desc": "Frontend Developer & UX/UI Designer",
 
-    "ruta_terminos_legal": "/es/terminos-legales#legalZona",
-    "ruta_terminos_cookies": "/es/terminos-legales#cookiesZona",
-    "ruta_terminos_privacidad": "/es/terminos-legales#privacidadZona",
+    "ruta_terminos_legal": "/es/aviso-legal",
+    "ruta_terminos_cookies": "/es/politica-cookies",
+    "ruta_terminos_privacidad": "/es/politica-privacidad",
 
     "footer_legal": "Aviso legal",
     "footer_cookies": "Gestion de cookies",

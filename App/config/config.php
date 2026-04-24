@@ -38,9 +38,21 @@ $arrayRutasGet = [
             'view'      => '/views/templates.php',
             'content'   => 'showroom'
         ],
-        '/es/terminos-legales' => [
-            'view'      => '/views/terminos.php',
-            'content'   => 'terminos'
+        // '/es/terminos-legales' => [
+        //     'view'      => '/views/terminos.php',
+        //     'content'   => 'terminos'
+        // ],
+        '/es/aviso-legal' => [
+            'view'      => '/views/aviso-legal.php',
+            'content'   => 'aviso'
+        ],
+        '/es/politica-privacidad' => [
+            'view'      => '/views/politica-privacidad.php',
+            'content'   => 'privacidad'
+        ],
+        '/es/politica-cookies' => [
+            'view'      => '/views/politica-cookies.php',
+            'content'   => 'cookies'
         ],
         // '/es/gracias' => [
         //     'view'      => '/views/gracias.php',
@@ -92,9 +104,21 @@ $arrayRutasGet = [
             'view'      => '/views/templates.php',
             'content'   => 'showroom'
         ],
-        '/eu/legezko-terminoak' => [
-            'view'      => '/views/terminos.php',
-            'content'   => 'terminos'
+        // '/eu/legezko-terminoak' => [
+        //     'view'      => '/views/terminos.php',
+        //     'content'   => 'terminos'
+        // ],
+        '/eu/lege-oharra' => [
+            'view'      => '/views/aviso-legal.php',
+            'content'   => 'aviso'
+        ],
+        '/eu/pribatutasun-politika' => [
+            'view'      => '/views/politica-privacidad.php',
+            'content'   => 'privacidad'
+        ],
+        '/es/cookie-politika' => [
+            'view'      => '/views/politica-cookies.php',
+            'content'   => 'cookies'
         ],
         // '/eu/eskerrikasko' => [
         //     'view'      => '/views/gracias.php',

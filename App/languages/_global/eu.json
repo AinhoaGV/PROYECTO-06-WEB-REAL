@@ -86,9 +86,9 @@
     "footer_logo_title": "Panaderia Aginaga",
     "footer_desc": "1932tik, Panaderia Aginagan egunero egiten ditugu artisau ogiak eta tokiko lehen mailako osagaiekin prestatutako gozogintza tradizionala. Zatoz bisitan eta ezagutu gure espezialitate berriak.",
 
-    "ruta_terminos_legal": "/eu/legezko-terminoak#legalZona",
-    "ruta_terminos_cookies": "/eu/legezko-terminoak#cookiesZona",
-    "ruta_terminos_privacidad": "/eu/legezko-terminoak#privacidadZona",
+    "ruta_terminos_legal": "/eu/lege-oharra",
+    "ruta_terminos_cookies": "/eu/cookie-politika",
+    "ruta_terminos_privacidad": "/eu/pribatutasun-politika",
 
     "footer_legal": "Legezko oharra",
     "footer_cookies": "Cookien kudeaketa",
