@@ -109,15 +109,15 @@
 
                 <div class="imagenes">                    
                     <a href="<?=$_ENV['RUTA']?><?= $ruta_branding ?>" title="Identidad Visual y Branding corporativo">
-                        <img src="https://dummyimage.com/1500x900" alt="Identidad Visual y Branding corporativo" title="Identidad Visual y Branding corporativo">
+                        <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/inicio/identidad-visual-brand.avif" alt="Identidad Visual y Branding corporativo" title="Identidad Visual y Branding corporativo">
                         <h3 class="title">Identidad Visual y Branding corporativo</h3>
                     </a>
                     <a href="<?=$_ENV['RUTA']?><?= $ruta_design ?>" title="Diseño de interfaces centradas en el usuario">
-                        <img src="https://dummyimage.com/1500x900" alt="Diseño de interfaces centradas en el usuario" title="Diseño de interfaces centradas en el usuario">
+                        <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/inicio/user-experience.avif" alt="Diseño de interfaces centradas en el usuario" title="Diseño de interfaces centradas en el usuario">
                         <h3 class="title">Diseño de interfaces centradas en el usuario</h3>
                     </a>
                     <a href="<?=$_ENV['RUTA']?><?= $ruta_desarrollo ?>" title="Desarrollo a medida y ecosistemas CMS">
-                        <img src="https://dummyimage.com/1500x900" alt="Desarrollo a medida y ecosistemas CMS" title="Desarrollo a medida y ecosistemas CMS">
+                        <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/inicio/desarrollo-web.avif" alt="Desarrollo a medida y ecosistemas CMS" title="Desarrollo a medida y ecosistemas CMS">
                         <h3 class="title">Desarrollo a medida y ecosistemas CMS</h3>
                     </a>                    
                 </div>
