@@ -116,7 +116,7 @@ $arrayRutasGet = [
             'view'      => '/views/politica-privacidad.php',
             'content'   => 'privacidad'
         ],
-        '/es/cookie-politika' => [
+        '/eu/cookie-politika' => [
             'view'      => '/views/politica-cookies.php',
             'content'   => 'cookies'
         ],

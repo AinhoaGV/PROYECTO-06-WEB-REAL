@@ -35,13 +35,13 @@
 $fuenteTitulos:'Bebas Neue';
 $fuenteTextos:'Montserrat';
 
-$color00:white;
+$color00:#f2f2f2;
 $color00svg: invert(100%) sepia(0%) saturate(7500%) hue-rotate(172deg) brightness(106%) contrast(106%);
 $color01: rgb(29, 29, 29);
 $color01bis:rgb(176, 176, 176);
 $color01bis2: rgba(0, 0, 0, 0.5);
 $color02: #d14d4d;
-$color03: rgb(122, 234, 198);
+$color03: rgb(39, 245, 176);
 $color02svg: invert(69%) sepia(79%) saturate(6998%) hue-rotate(337deg) brightness(91%) contrast(78%);
 
 $tablet: 800px;
@@ -171,14 +171,14 @@ section{
     row-gap: 2rem;
     @media only screen and (min-width:$tablet){
         &{
-            padding: 4rem 0;
-            row-gap: 3rem;
+            padding: 3rem 0;
+            row-gap: 2rem;
         }
     }
     @media only screen and (min-width:$desktop){
         &{
-            padding: 6rem 0;
-            row-gap: 4rem;
+            padding: 4rem 0;
+            row-gap: 3rem;
         }
     }
 }
