@@ -216,7 +216,9 @@
                                 <img src="<?=$_ENV['RUTA'];?>/assets/img/icons/icon-language.svg" alt="">
                                 <div class="ficha-data">
                                     <h5 class="ficha-title">Euskera</h5>
-                                    <p><span>7/10</span></p>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 70%"></div>
+                                    </div>
                                 </div>
                             </div>        
                         </div>
