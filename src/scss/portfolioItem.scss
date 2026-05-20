@@ -2,6 +2,25 @@
 @use 'resources/global';
 
 @use 'resources/art01';
+@use 'resources/art02';
 @use 'resources/art10';
 @use 'resources/moduloBoton02';
 
+header{
+    background-image: url('../img/vistas/sobre-mi/sobre-mi-1500.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    @media only screen and (min-width:c.$tablet){
+        background-image: url('../img/vistas/sobre-mi/sobre-mi-1900.avif');
+    }
+    @media only screen and (min-width:c.$desktop){
+        background-image: url('../img/vistas/sobre-mi/sobre-mi-2256.avif');
+    }
+    @media only screen and (min-width: c.$desktop) {
+        .art02 .textos {
+            width: 80%;
+        }
+    }
+}

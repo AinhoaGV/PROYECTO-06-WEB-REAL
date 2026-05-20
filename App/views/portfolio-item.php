@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?=$title?></title>
-    <meta name="description" content="<?=$description?>">
+    <title>Branding</title>
+    <meta name="description" content="Diseño sistemas visuales que comunican la personalidad de tu negocio.">
     <?php echo vite_tags('src/js/portfolioItem.js'); ?>
 
     <link rel="canonical" href="<?= $_ENV['RUTA'] ?><?= $url ?>">
@@ -21,27 +21,16 @@
     <?php include $appRoot . '/includes/nav.php' ?>
 
     <header>
-                <section>
-            <!-- H2 especial -->
-            <div class="h2Especial">
-                <span></span>
-                <h2>Encabezado h2 de la primera sección</h2>
-            </div>
+        <section>
 
-            <!-- Artículo 01 -->
-            <article class="art01">
-                <img src="https://dummyimage.com/1000x700" alt="">
-                <div>
-                    <h3>Encabezado h3 artículo tipo art01</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, aliquam pariatur? Eius excepturi repellendus esse qui doloremque a similique sint.</p>
-                    <!-- <a href="" class="boton">CTA</a> -->
-                    <a href="" class="moduloBoton02">
-                        <span>Conócenos</span>
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/system/arrow-forward-outline.svg" alt="" title="">
-                    </a>
+            <article class="art02">
+                <div class="textos">
+                    <h1>Más allá del logotipo</h1>
+                    <p>Diseño sistemas visuales que comunican la personalidad de tu negocio. Selecciono combinaciones que refuerzan el mensaje de la marca e impactan visualmente. Establezco reglas claras de uso para que la comunicación visual sea coherente, profesional y capaz de evocar las emociones adecuadas en el público objetivo.</p>
                 </div>
             </article>
         </section>
+        
     </header>
 
     <main>
@@ -49,29 +38,30 @@
             <!-- art10 -->
             <article class="art10">
                 <div>
-                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                    <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/portfolio/branding/appdegestion.avif" alt="App de Gestión">
                 </div>
                 <div>
-                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                    <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/portfolio/branding/arrivet.avif" alt="Arrivet">
                 </div>
                 <div>
-                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                    <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/portfolio/branding/kts.avif" alt="KTS">
                 </div>
                 <div>
-                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                    <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/portfolio/branding/ori-zautz.avif" alt="Ori-Zautz">
                 </div>
                 <div>
-                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                    <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/portfolio/branding/teknomai.avif" alt="Teknomai">
                 </div>
                 <div>
-                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                    <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/portfolio/branding/utilfor.avif" alt="Utilfor">
                 </div>
                 <div>
-                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                    <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/portfolio/branding/thn.avif" alt="THN">
                 </div>
                 <div>
-                    <img src="https://dummyimage.com/1500x1500" alt="Pan">
+                    <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/portfolio/branding/transformainteriores.avif" alt="Transforma Interiores">
                 </div>
+
             </article>
         </section>
     </main>
