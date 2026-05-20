@@ -20,3 +20,43 @@ header{
         color: c.$color00; 
     }
 }
+.artForm03{
+    >div{
+
+        .contenedor-form{
+
+            form{
+
+                input, textarea{
+                    border-radius:5px;
+
+                    &::placeholder{
+                        color: c.$color01bis;
+                        font-family: c.$fuenteTextos;
+                    }
+                }
+            }
+        }
+    }
+        .contenedor-info{
+
+            ul{
+
+                li {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-start;
+                    justify-content: flex-start;
+                    column-gap: 2rem;
+
+                    > img{
+                        width: 30px;
+                        filter: c.$color02svg;
+                    }
+                    > span{
+                        color: c.$color02;
+                    }
+                }
+            }
+        }
+    }

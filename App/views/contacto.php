@@ -50,52 +50,34 @@
     <!-- NAV -->
     <?php include $appRoot . '/includes/nav.php' ?> 
 
-    <!-- HERO01 -->
-    <header>
-        <h1><?= $hero_h1 ?></h1>
-        <div>            
-            <img rel="preload" fetchpriority="high" src="<?=$_ENV['RUTA']?>/assets/img/logos/logo-agv.svg" alt="">
-        </div>        
-    </header>    
-
     <main>
         <section>
-
-            <div class="h2Especial">
-                <span></span>
-                <h2><?= $section_h2 ?></h2>
-            </div>
             
             <!-- artForm03 -->
-            <article class="artForm03">        
-                <h3>H3 con AJAX</h3>
+            <article class="artForm03">
                 <div>
                 <div class="contenedor-form">
                     <img src="<?=$_ENV['RUTA'];?>/assets/img/system/ico-mail.svg" alt="">
                     <div id="modal_envio_ok" class="modal_envio_ok">
                     <div>
                         <img src="<?=$_ENV['RUTA'];?>/assets/img/system/ico-mail.svg" alt="">
-                        <h4 id="modal_envio_ok_msg" class="modal_envio_ok_msg">Gracias por tu email</h4>
+                        <p id="modal_envio_ok_msg" class="modal_envio_ok_msg">Gracias por tu email</p>
                         <button id="volver_al_formulario" class="boton">Volver al formulario</button>
                     </div>
                     </div>
                     <form id="idFormAjax">
                     <p class="error" id="errorForm03"></p>
                     <!--nombre-->
-                    <label for="nombreAjax">Nombre *</label>
-                    <input type="text" id="nombreAjax" name="nombre" placeholder="Escribe aquí tu nombre *" value="<?php if(isset($error)){echo $nombre;} ?>">
+                    <input type="text" id="nombreAjax" name="nombre" placeholder="Nombre *" value="<?php if(isset($error)){echo $nombre;} ?>">
 
                     <!--telefono-->
-                    <label for="telefonoAjax">Teléfono *</label>
-                    <input type="tel" id="telefonoAjax" name="telefono" placeholder="Escribe aquí tu teléfono *" value="<?php if(isset($error)){echo $telefono;} ?>">
+                    <input type="tel" id="telefonoAjax" name="telefono" placeholder="Teléfono *" value="<?php if(isset($error)){echo $telefono;} ?>">
 
                     <!--email-->
-                    <label for="emailAjax">Correo electrónico *</label>
-                    <input type="text" id="emailAjax" name="email" placeholder="Escribe aquí tu correo electrónico *" value="<?php if(isset($error)){echo $email;} ?>">
+                    <input type="text" id="emailAjax" name="email" placeholder="Email *" value="<?php if(isset($error)){echo $email;} ?>">
 
                     <!--mensaje-->
-                    <label for="mensajeAjax">Tu mensaje *</label>
-                    <textarea name="mensaje" id="mensajeAjax" placeholder="Escribe aquí tu mensaje *"><?php if(isset($error)){echo $mensaje;} ?></textarea>
+                    <textarea name="mensaje" id="mensajeAjax" placeholder="Mensaje *"><?php if(isset($error)){echo $mensaje;} ?></textarea>
 
                     <!--terminos-->
                     <div class="horizontal">
@@ -138,33 +120,29 @@
                 </div>
                 
                 <div class="contenedor-info">
+                    <h1>¿Hablamos?</h1>
+                    <p>Si quieres contactar conmigo utiliza el formulario de al lado, en breve te responderé.</p>
                     <ul>
                     <li>
-                        <a href="tel:+34943000000" target="_blank">
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/system/ico-phone.svg" alt="">
-                        <span>943000000</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://wa.me/610058776" target="_blank">
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/system/ico-whatsapp.svg" alt="">
-                        <span>666666666</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://maps.app.goo.gl/2XTGC8KXb9mipHun7" target="_blank">
                         <img src="<?=$_ENV['RUTA'];?>/assets/img/system/ico-address.svg" alt="">
-                        <span>Calle de la amargura, 20800 Zarautz (Gipuzkoa)</span>
-                        </a>
+                        <span>Zarautz (Gipuzkoa)</span>
                     </li>
                     <li>
-                        <a href="mailto:ainhoa.gomez+1@gmail.com" target="_blank">
+                        <a href="mailto:soy@ainhoagomez.com" target="_blank">
                         <img src="<?=$_ENV['RUTA'];?>/assets/img/system/ico-mail.svg" alt="">
-                        <span>ainhoa.gomez+1@gmail.com</span>
+                        <span>soy@ainhoagomez.com</span>
                         </a>
                     </li>
                     </ul>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d5808.947443853325!2d-2.1690286437178394!3d43.28340018018128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1768584282460!5m2!1ses!2ses" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <ul>
+                        <li class="rrss">
+
+                            <a href="https://www.linkedin.com/in/ainhoa-gomez-vallejo/" title="Visita mi LinkedIn" target="_blank">
+                                <img src="http://localhost:3000/assets/img/system/logo-linkedin.svg" alt="Visita mi LinkedIn" title="Visita mi LinkedIn" width="30" height="30">
+                            </a>
+
+                        </li>
+                    </ul>
                 </div>
                 </div>
             </article>
