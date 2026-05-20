@@ -1,6 +1,44 @@
 {
+    "title": "Branding",
+    "meta_description": "Zure negozioaren nortasuna komunikatzen duten ikus-sistemak diseinatzen ditut.",
     "hero_h1": "Branding",
+    "hero_title": "Logotipotik harago",
+    "hero_description": "Zure negozioaren nortasuna komunikatzen duten ikus-sistemak diseinatzen ditut. Markaren mezua indartzen duten konbinazioak hautatzen ditut eta ikusizko inpaktua sortzen dute. Erabilera-arau argiak ezartzen ditut, komunikazio bisuala koherentea, profesionala eta helburuko publikoan emozio egokiak pizteko gai izan dadin.",
     "hero_cta": "Jarri gurekin harremanetan",
     "art_cta": "Kontaktua",
-    "art_cta_alt": "Joan kontaktura"
+    "art_cta_alt": "Joan kontaktura",
+    "gallery_images": [
+        {
+            "src": "/assets/img/vistas/portfolio/branding/appdegestion.avif",
+            "alt": "Kudeaketa aplikazioa"
+        },
+        {
+            "src": "/assets/img/vistas/portfolio/branding/arrivet.avif",
+            "alt": "Arrivet"
+        },
+        {
+            "src": "/assets/img/vistas/portfolio/branding/kts.avif",
+            "alt": "KTS"
+        },
+        {
+            "src": "/assets/img/vistas/portfolio/branding/ori-zautz.avif",
+            "alt": "Ori-Zautz"
+        },
+        {
+            "src": "/assets/img/vistas/portfolio/branding/teknomai.avif",
+            "alt": "Teknomai"
+        },
+        {
+            "src": "/assets/img/vistas/portfolio/branding/utilfor.avif",
+            "alt": "Utilfor"
+        },
+        {
+            "src": "/assets/img/vistas/portfolio/branding/thn.avif",
+            "alt": "THN"
+        },
+        {
+            "src": "/assets/img/vistas/portfolio/branding/transformainteriores.avif",
+            "alt": "Transforma Interiores"
+        }
+    ]
 }
