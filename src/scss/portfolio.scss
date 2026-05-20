@@ -4,7 +4,7 @@
 @use 'resources/moduloBoton01';
 @use 'resources/moduloBoton02';
 
-@use 'resources/art05';
+@use 'resources/art02';
 @use 'resources/art01';
 
 
@@ -48,4 +48,10 @@ header{
             order: 0
         }
     }
+}
+
+.art02 .title{
+    color: c.$color01bis;
+    font-size: 3rem;
+    letter-spacing: 4px;
 }
