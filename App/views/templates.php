@@ -136,7 +136,7 @@
             <article class="art02">
 
                 <div class="textos">
-                    <h3>Encabezado h3 del art02</h3>
+                    <h3 class="title">Encabezado h3 del art02</h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae repudiandae obcaecati magni odio eius maxime iste expedita? Cum vel ad nihil laborum. Nobis unde aperiam rerum pariatur dignissimos, quam consequatur.</p>
                     <!-- <a href="" class="boton">Más info</a> -->
                     <a href="" class="moduloBoton02">

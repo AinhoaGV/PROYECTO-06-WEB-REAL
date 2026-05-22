@@ -6,7 +6,7 @@
 </label>
 
 <nav>
-    <img src="<?=$_ENV['RUTA']?>/assets/img/logos/ainhoa-gomez-vallejo.svg" alt="<?= $nav_logo_alt ?>" title="<?= $nav_logo_title ?>" width="120" height="40">
+    <a href="<?=$_ENV['RUTA']?><?= $ruta_inicio ?>" title="<?= $menu_title_inicio ?>" class="nav-brand"><img src="<?=$_ENV['RUTA']?>/assets/img/logos/ainhoa-gomez-vallejo.svg" alt="<?= $nav_logo_alt ?>" title="<?= $nav_logo_title ?>" width="120" height="40"></a>
 
     <?php
     include $appRoot . '/includes/enlaces_menu.php'

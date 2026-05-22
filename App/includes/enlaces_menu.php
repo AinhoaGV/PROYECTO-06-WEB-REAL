@@ -1,6 +1,5 @@
 <ul>
-    <li><a href="<?=$_ENV['RUTA']?><?= $ruta_inicio ?>" title="<?= $menu_title_inicio ?>"><?= $menu_inicio ?></a></li>
-
+    
     <li><a href="<?=$_ENV['RUTA']?><?= $ruta_sobre_mi ?>" title="<?= $menu_title_sobre_mi ?>"><?= $menu_sobre_mi ?></a></li>
 
     <li>
