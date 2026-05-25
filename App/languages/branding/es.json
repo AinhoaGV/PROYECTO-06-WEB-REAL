@@ -10,36 +10,36 @@
     "art_cta_alt": "Ve a contacto",
     "gallery_images": [
         {
-            "src": "/assets/img/vistas/portfolio/branding/appdegestion.avif",
-            "alt": "App de Gestión"
+            "src": "/assets/img/vistas/portfolio/branding/branding-01.avif",
+            "alt": "Branding"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/arrivet.avif",
-            "alt": "Arrivet"
+            "src": "/assets/img/vistas/portfolio/branding/branding-02.avif",
+            "alt": "Branding"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/kts.avif",
-            "alt": "KTS"
+            "src": "/assets/img/vistas/portfolio/branding/branding-03.avif",
+            "alt": "Branding"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/ori-zautz.avif",
-            "alt": "Ori-Zautz"
+            "src": "/assets/img/vistas/portfolio/branding/branding-04.avif",
+            "alt": "Branding"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/teknomai.avif",
-            "alt": "Teknomai"
+            "src": "/assets/img/vistas/portfolio/branding/branding-05.avif",
+            "alt": "Branding"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/utilfor.avif",
-            "alt": "Utilfor"
+            "src": "/assets/img/vistas/portfolio/branding/branding-06.avif",
+            "alt": "Branding"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/thn.avif",
-            "alt": "THN"
+            "src": "/assets/img/vistas/portfolio/branding/branding-07.avif",
+            "alt": "Branding"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/transformainteriores.avif",
-            "alt": "Transforma Interiores"
+            "src": "/assets/img/vistas/portfolio/branding/branding-08.avif",
+            "alt": "Branding"
         }
     ]
 }

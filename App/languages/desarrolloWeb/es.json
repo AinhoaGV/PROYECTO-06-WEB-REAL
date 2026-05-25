@@ -10,36 +10,36 @@
     "art_cta_alt": "Ve a contacto",
     "gallery_images": [
         {
-            "src": "/assets/img/vistas/portfolio/desarrollo/appdegestion.avif",
-            "alt": "App de Gestión"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-01.avif",
+            "alt": "Desarrollo web"
         },
         {
-            "src": "/assets/img/vistas/portfolio/desarrollo/campingzarautz.avif",
-            "alt": "Camping Zarautz"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-02.avif",
+            "alt": "Desarrollo web"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/kts.avif",
-            "alt": "KTS"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-03.avif",
+            "alt": "Desarrollo web"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/ori-zautz.avif",
-            "alt": "Ori-Zautz"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-04.avif",
+            "alt": "Desarrollo web"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/teknomai.avif",
-            "alt": "Teknomai"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-05.avif",
+            "alt": "Desarrollo web"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/utilfor.avif",
-            "alt": "Utilfor"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-06.avif",
+            "alt": "Desarrollo web"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/thn.avif",
-            "alt": "THN"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-07.avif",
+            "alt": "Desarrollo web"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/transformainteriores.avif",
-            "alt": "Transforma Interiores"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-08.avif",
+            "alt": "Desarrollo web"
         }
     ]
 }
