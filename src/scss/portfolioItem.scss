@@ -20,7 +20,43 @@ header{
     }
     @media only screen and (min-width: c.$desktop) {
         .art02 .textos {
-            width: 80%;
+            width: 60%;
         }
+    }
+    .art02 .textos{
+        p{
+            background-color: c.$color00bis;
+            border-radius: 0.5rem;
+            font-size: clamp(1.2rem, 2vw, 2rem);
+            padding: 1rem;
+            text-align: center;
+        }
+    }
+}
+header.branding{
+    background-image: url('../img/vistas/portfolio/header-branding-1280.avif');
+    @media only screen and (min-width:c.$tablet){
+        background-image: url('../img/vistas/portfolio/header-branding-1200.avif');
+    }
+    @media only screen and (min-width:c.$desktop){
+        background-image: url('../img/vistas/portfolio/header-branding-2256.avif');
+    }
+}
+header.desarrolloweb{
+    background-image: url('../img/vistas/portfolio/header-developer-1280.avif');
+    @media only screen and (min-width:c.$tablet){
+        background-image: url('../img/vistas/portfolio/header-developer-1200.avif');
+    }
+    @media only screen and (min-width:c.$desktop){
+        background-image: url('../img/vistas/portfolio/header-developer-2256.avif');
+    }
+}
+header.uxui{
+    background-image: url('../img/vistas/portfolio/header-ux-ui-1280.avif');
+    @media only screen and (min-width:c.$tablet){
+        background-image: url('../img/vistas/portfolio/header-ux-ui-1200.avif');
+    }
+    @media only screen and (min-width:c.$desktop){
+        background-image: url('../img/vistas/portfolio/header-ux-ui-2256.avif');
     }
 }

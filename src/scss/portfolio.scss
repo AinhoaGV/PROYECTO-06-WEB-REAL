@@ -10,16 +10,16 @@
 
 
 header{
-    background-image: url('../img/vistas/portfolio/header-portfolio.avif');
+    background-image: url('../img/vistas/portfolio/header-portfolio-1280.avif');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left center;
     background-attachment: fixed;
     @media only screen and (min-width:c.$tablet){
-        background-image: url('../img/vistas/portfolio/header-portfolio.avif');
+        background-image: url('../img/vistas/portfolio/header-portfolio-1200.avif');
     }
     @media only screen and (min-width:c.$desktop){
-        background-image: url('../img/vistas/portfolio/header-portfolio.avif');
+        background-image: url('../img/vistas/portfolio/header-portfolio-2256.avif');
     }
     h1{
         color: c.$color02;

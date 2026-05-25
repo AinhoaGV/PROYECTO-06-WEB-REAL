@@ -89,7 +89,7 @@
                 </div>
                 <!-- hijo 2 -->
                 <div>
-                    <img src="https://dummyimage.com/1000x1500" alt="">
+                    <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/inicio/presentacion-1500.avif" alt="">
                 </div>
             </article>
         </section>

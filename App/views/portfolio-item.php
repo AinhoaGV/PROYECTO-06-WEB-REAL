@@ -19,7 +19,7 @@
 
     <?php include $appRoot . '/includes/nav.php' ?>
 
-    <header>
+    <header class="<?= $class_header ?>">
         <section>
             <article class="art02">
                 <div class="textos">

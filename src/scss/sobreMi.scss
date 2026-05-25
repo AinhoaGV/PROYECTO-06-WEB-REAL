@@ -12,13 +12,13 @@
 
 
 header{
-    background-image: url('../img/vistas/sobre-mi/sobre-mi-1500.avif');
+    background-image: url('../img/vistas/sobre-mi/sobre-mi-1280.avif');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: right center;
     background-attachment: fixed;
     @media only screen and (min-width:c.$tablet){
-        background-image: url('../img/vistas/sobre-mi/sobre-mi-1900.avif');
+        background-image: url('../img/vistas/sobre-mi/sobre-mi-1200.avif');
     }
     @media only screen and (min-width:c.$desktop){
         background-image: url('../img/vistas/sobre-mi/sobre-mi-2256.avif');
