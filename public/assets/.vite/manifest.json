@@ -4,16 +4,16 @@
     "name": "_artForm03"
   },
   "src/js/404.js": {
-    "file": "js/404-C3leYaG7.js",
+    "file": "js/404-BRje57rx.js",
     "name": "404",
     "src": "src/js/404.js",
     "isEntry": true,
     "css": [
-      "css/404-Bf8afoHg.css"
+      "css/404-Bs4QoL3Z.css"
     ]
   },
   "src/js/contacto.js": {
-    "file": "js/contacto-CH-HqtA5.js",
+    "file": "js/contacto-BVUbxQAg.js",
     "name": "contacto",
     "src": "src/js/contacto.js",
     "isEntry": true,
@@ -21,56 +21,56 @@
       "__artForm03-_Vw-EPQF.js"
     ],
     "css": [
-      "css/contacto-DnLwJrF1.css"
+      "css/contacto-D8nRHJfx.css"
     ]
   },
   "src/js/gracias.js": {
-    "file": "js/gracias-MFwSq36S.js",
+    "file": "js/gracias-BQWVycyx.js",
     "name": "gracias",
     "src": "src/js/gracias.js",
     "isEntry": true,
     "css": [
-      "css/gracias-CWnx4kq7.css"
+      "css/gracias-BgltOdRa.css"
     ]
   },
   "src/js/inicio.js": {
-    "file": "js/inicio-DXW3jcVq.js",
+    "file": "js/inicio-B043VqDj.js",
     "name": "inicio",
     "src": "src/js/inicio.js",
     "isEntry": true,
     "css": [
-      "css/inicio-CF0Hgkxx.css"
+      "css/inicio-JDDa2K3n.css"
     ]
   },
   "src/js/portfolio.js": {
-    "file": "js/portfolio-CHWF0_r8.js",
+    "file": "js/portfolio-BI5vuS8N.js",
     "name": "portfolio",
     "src": "src/js/portfolio.js",
     "isEntry": true,
     "css": [
-      "css/portfolio-DiGVs8LO.css"
+      "css/portfolio-D7VM-xpc.css"
     ]
   },
   "src/js/portfolioItem.js": {
-    "file": "js/portfolioItem-B726XjZg.js",
+    "file": "js/portfolioItem-SmCD6D6e.js",
     "name": "portfolioItem",
     "src": "src/js/portfolioItem.js",
     "isEntry": true,
     "css": [
-      "css/portfolioItem-BQEv1sZS.css"
+      "css/portfolioItem-DUhdnkgS.css"
     ]
   },
   "src/js/sobreMi.js": {
-    "file": "js/sobreMi-Dh7XnH2i.js",
+    "file": "js/sobreMi-ByTXo3Ky.js",
     "name": "sobreMi",
     "src": "src/js/sobreMi.js",
     "isEntry": true,
     "css": [
-      "css/sobreMi-BDv04ZCx.css"
+      "css/sobreMi-WBSN2m0J.css"
     ]
   },
   "src/js/templates.js": {
-    "file": "js/templates-C06sE2MN.js",
+    "file": "js/templates-Cx4fNf2f.js",
     "name": "templates",
     "src": "src/js/templates.js",
     "isEntry": true,
@@ -78,25 +78,25 @@
       "__artForm03-_Vw-EPQF.js"
     ],
     "css": [
-      "css/templates-L7LlG5Wm.css"
+      "css/templates-BOOTN70a.css"
     ]
   },
   "src/js/terminos.js": {
-    "file": "js/terminos-CbA1s9SH.js",
+    "file": "js/terminos-BT0_yR7N.js",
     "name": "terminos",
     "src": "src/js/terminos.js",
     "isEntry": true,
     "css": [
-      "css/terminos-jKDbiw0U.css"
+      "css/terminos-M-Es3RQ2.css"
     ]
   },
   "src/js/zonaAdmin.js": {
-    "file": "js/zonaAdmin-usZY0SpR.js",
+    "file": "js/zonaAdmin-B-_TRbH2.js",
     "name": "zonaAdmin",
     "src": "src/js/zonaAdmin.js",
     "isEntry": true,
     "css": [
-      "css/zonaAdmin-C2p2No6n.css"
+      "css/zonaAdmin-C4yZM5sK.css"
     ]
   }
 }

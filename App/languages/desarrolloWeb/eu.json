@@ -1,44 +1,45 @@
 {
-    "title": "Branding",
-    "meta_description": "Zure negozioaren nortasuna komunikatzen duten ikus-sistemak diseinatzen ditut.",
-    "hero_h1": "Branding",
-    "hero_title": "Logotipotik harago",
-    "hero_description": "Zure negozioaren nortasuna komunikatzen duten ikus-sistemak diseinatzen ditut. Markaren mezua indartzen duten konbinazioak hautatzen ditut eta ikusizko inpaktua sortzen dute. Erabilera-arau argiak ezartzen ditut, komunikazio bisuala koherentea, profesionala eta helburuko publikoan emozio egokiak pizteko gai izan dadin.",
-    "hero_cta": "Jarri gurekin harremanetan",
+    "title": "Web Garapena & Frontend",
+    "meta_description": "Diseinu sistemak sortzen ditut zure negozioen pertsonalitatea komunikatzen dutenak.",
+    "class_header": "desarrolloweb",
+    "hero_h1": "Web Garapena & Frontend",
+    "hero_title": "Web Garapena & Frontend",
+    "hero_description": "Diseinuak kodean itzultzen ditut, maketazioaren teknika modernoak erabiltzen ditut gunea malgua eta sakoabide desberdinetara egokitzen dela. Nire kodea erabiltzailearen esperientzia esperatua den zintzo daiteko. Interfazean dinamismoa gehitzen dut JavaScripten eta framework modernoaren erabilera bidez.",
+    "hero_cta": "Deitu gaitzazu",
     "art_cta": "Kontaktua",
-    "art_cta_alt": "Joan kontaktura",
+    "art_cta_alt": "Joan kontaktuera",
     "gallery_images": [
         {
-            "src": "/assets/img/vistas/portfolio/branding/appdegestion.avif",
-            "alt": "Kudeaketa aplikazioa"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-01.avif",
+            "alt": "Web garapena"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/arrivet.avif",
-            "alt": "Arrivet"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-02.avif",
+            "alt": "Web garapena"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/kts.avif",
-            "alt": "KTS"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-03.avif",
+            "alt": "Web garapena"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/ori-zautz.avif",
-            "alt": "Ori-Zautz"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-04.avif",
+            "alt": "Web garapena"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/teknomai.avif",
-            "alt": "Teknomai"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-05.avif",
+            "alt": "Web garapena"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/utilfor.avif",
-            "alt": "Utilfor"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-06.avif",
+            "alt": "Web garapena"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/thn.avif",
-            "alt": "THN"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-07.avif",
+            "alt": "Web garapena"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/transformainteriores.avif",
-            "alt": "Transforma Interiores"
+            "src": "/assets/img/vistas/portfolio/desarrollo/development-08.avif",
+            "alt": "Web garapena"
         }
     ]
 }

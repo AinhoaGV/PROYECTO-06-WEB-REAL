@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="<?=$lang ?>">
+<html lang="<?= $lang ?>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,9 +39,9 @@
     <?php include $appRoot . '/includes/nav.php' ?>
 
     <header>        
-        <h1>Casos de éxito y soluciones digitales</h1>
+        <h1><?= $header_title ?></h1>
         <div>            
-            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logo-agv.svg" alt="">
+            <img src="<?= $_ENV['RUTA'] ?><?= $header_logo_src ?>" alt="<?= $header_logo_alt ?>">
         </div>
     </header>
 
@@ -50,8 +50,8 @@
 
             <article class="art02">
                 <div class="textos">
-                    <h2>Mi trabajo: del concepto visual al código final</h2>
-                    <p>En esta sección puedes ver una selección de los proyectos en los que he trabajado últimamente. Mi forma de trabajar es sencilla: me gusta cuidar tanto la imagen como la parte técnica para que el resultado sea equilibrado.</p>
+                    <h2><?= $section_title ?></h2>
+                    <p><?= $section_paragraph ?></p>
                 </div>
             </article>
         </section>
@@ -59,48 +59,46 @@
         <section>
             <div class="h2Especial">
                 <span></span>
-                <h2>Mis tres pilares</h2>
+                <h2><?= $pilares_title ?></h2>
             </div>
 
             <article class="art01" id="hitoBranding">
-                <img src="https://dummyimage.com/900x900" alt="Identidad y Branding" title="Identidad y Branding">
+                <img src="<?= $_ENV['RUTA'] ?><?= $project1_img_src ?>" alt="<?= $project1_img_alt ?>" title="<?= $project1_img_title ?>">
                 <div>
-                    <h3>Identidad y Branding: Construyendo marcas sólidas</h3>
-                    <p>El branding digital va más allá de un logo bonito. He trabajado en la creación de marcas que nacen preparadas para el entorno web, cuidando la legibilidad y el impacto visual, facilitando que el usuario identifique y recuerde la marca.</p>
-                    <a href="<?=$_ENV['RUTA']?><?= $ruta_branding ?>" class="moduloBoton02">
-                        <span>Más sobre Branding</span>
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/system/arrow-forward-outline.svg" alt="" title="">
+                    <h3><?= $project1_heading ?></h3>
+                    <p><?= $project1_paragraph ?></p>
+                    <a href="<?= $_ENV['RUTA'] ?><?= $ruta_branding ?>" class="moduloBoton02">
+                        <span><?= $project1_cta ?></span>
+                        <img src="<?= $_ENV['RUTA'] ?><?= $arrow_icon_src ?>" alt="<?= $arrow_icon_alt ?>" title="<?= $arrow_icon_title ?>">
                     </a>
                 </div>
             </article>
 
             <article class="art01 invert" id="hitoDesign">
-                <img src="https://dummyimage.com/900x900" alt="Diseño UX/UI" title="Diseño UX/UI">
+                <img src="<?= $_ENV['RUTA'] ?><?= $project2_img_src ?>" alt="<?= $project2_img_alt ?>" title="<?= $project2_img_title ?>">
                 <div>
-                    <h3>Diseño UX/UI: Experiencias de usuario optimizadas</h3>
-                    <p>Diseño pantallas que no solo son estéticas, sino que responden a un análisis previo, logrando que la experiencia de uso sea gratificante.<br>
-                    Propongo soluciones y prototipos de alta fidelidad basados en buenas prácticas de UX, transformando sitios complejos en plataformas fáciles de navegar.</p>
-                    <a href="<?=$_ENV['RUTA']?><?= $ruta_design ?>" class="moduloBoton02">
-                        <span>Más sobre Diseño</span>
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/system/arrow-forward-outline.svg" alt="" title="">
+                    <h3><?= $project2_heading ?></h3>
+                    <p><?= $project2_paragraph ?></p>
+                    <a href="<?= $_ENV['RUTA'] ?><?= $ruta_design ?>" class="moduloBoton02">
+                        <span><?= $project2_cta ?></span>
+                        <img src="<?= $_ENV['RUTA'] ?><?= $arrow_icon_src ?>" alt="<?= $arrow_icon_alt ?>" title="<?= $arrow_icon_title ?>">
                     </a>
                 </div>
             </article>
 
             <article class="art01" id="hitoTorrijas">
-                <img src="https://dummyimage.com/900x900" alt="Desarrollo web" title="Desarrollo web">
+                <img src="<?= $_ENV['RUTA'] ?><?= $project3_img_src ?>" alt="<?= $project3_img_alt ?>" title="<?= $project3_img_title ?>">
                 <div>
-                    <h3>Desarrollo Web: Rendimiento y escalabilidad</h3>
-                    <p>Junto a mi equipo construyo sitios web preparados para crecer. Intento mantener un código organizado, modular y fácil de escalar por otros desarrolladores si fuera necesario.</p>
-                    <a href="<?=$_ENV['RUTA']?><?= $ruta_desarrollo ?>" class="moduloBoton02">
-                        <span>Más sobre Desarrollo Web</span>
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/system/arrow-forward-outline.svg" alt="" title="">
+                    <h3><?= $project3_heading ?></h3>
+                    <p><?= $project3_paragraph ?></p>
+                    <a href="<?= $_ENV['RUTA'] ?><?= $ruta_desarrollo ?>" class="moduloBoton02">
+                        <span><?= $project3_cta ?></span>
+                        <img src="<?= $_ENV['RUTA'] ?><?= $arrow_icon_src ?>" alt="<?= $arrow_icon_alt ?>" title="<?= $arrow_icon_title ?>">
                     </a>
                 </div>
             </article>
 
         </section>
-
 
     </main>
 

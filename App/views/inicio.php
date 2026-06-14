@@ -25,7 +25,7 @@
     <meta name="twitter:title" content="<?= $title ?>">
     <meta name="twitter:description" content="<?= $meta_description ?>">
     <meta name="twitter:image" content="<?= $_ENV['RUTA'] ?><?= $og_image ?>">
-    <meta name="twitter:url" content="<?= $_ENV['RUTA'] ?><?= $url ?>"
+    <meta name="twitter:url" content="<?= $_ENV['RUTA'] ?><?= $url ?>">
 
     <!-- Indexacion y autoridad-->
     <meta name="robots" data-lang="robots" content="nofollow, noindex">
@@ -49,112 +49,100 @@
 
     <!-- HERO01 -->
     <header>
-        <h1>Ainhoa Gómez Vallejo<br>Front-End Developer & Diseñadora UX/UI</h1>
+        <h1><?= $header_title_line1 ?><br><?= $header_title_line2 ?></h1>
         <div>
-            <img src="<?=$_ENV['RUTA']?>/assets/img/logos/logo-agv.svg" alt="">
+            <img src="<?= $_ENV['RUTA'] ?><?= $header_logo_src ?>" alt="<?= $header_logo_alt ?>" title="<?= $header_logo_title ?>">
         </div>
-        <a href="<?=$_ENV['RUTA']?><?= $ruta_contacto ?>" class="boton"><?= $hero_cta ?></a>
+        <a href="<?= $_ENV['RUTA'] ?><?= $ruta_contacto ?>" class="boton"><?= $hero_cta_text ?></a>
     </header>
 
     <main>
 
         <!-- Sección 01 -->
         <section class="sect01">
-            <!-- <div class="h2Especial">
-                <span></span>
-                <h2>Encabezado h2 de la sect01</h2>
-            </div> -->
             <article>
-                <!-- hijo 1 -->
                 <div>
-                    <h2 class="title">Donde el diseño funcional se encuentra con el código limpio</h2>
-                    <p>Busco el equilibrio perfecto entre estética y funcionalidad. Mis proyectos no solo son atractivos, sino que sino que también son prácticos. Diseño interfaces que guían al usuario de forma intuitiva, asegurando que cada interacción sea la más lógica y fluida.</p>
+                    <h2 class="title"><?= $section01_title ?></h2>
+                    <p><?= $section01_paragraph ?></p>
                     <span></span>
                     <div class="cards">
                         <div class="card">
-                            <img src="<?=$_ENV['RUTA'];?>/assets/img/icons/icon-design.svg" alt="">
-                            <h3 class="card-title">UI y Prototipado de alta fidelidad</h3>
-                            <p>Me gusta trabajar en los proyectos en los que antes de desarrollar, defino la experiencia visual. Creo prototipos que permiten validar la navegación y el diseño final. Esto garantiza el correcto planteamiento del producto final.</p>
+                            <img src="<?= $_ENV['RUTA'] ?><?= $card1_icon_src ?>" alt="<?= $card1_icon_alt ?>" title="<?= $card1_icon_title ?>">
+                            <h3 class="card-title"><?= $card1_title ?></h3>
+                            <p><?= $card1_text ?></p>
                         </div>
                         <div class="card">
-                            <img src="<?=$_ENV['RUTA'];?>/assets/img/icons/icon-layout.svg" alt="">
-                            <h3 class="card-title">Maquetación avanzada y Desarrollo Frontend</h3>
-                            <p>Traduzco estos diseños complejos a código limpio. Utilizo estándares modernos para asegurar que la web sea rápida, accesible y fácil de mantener. Mi enfoque en el frontend ayuda a una mejor experiencia de usuario.</p>
+                            <img src="<?= $_ENV['RUTA'] ?><?= $card2_icon_src ?>" alt="<?= $card2_icon_alt ?>" title="<?= $card2_icon_title ?>">
+                            <h3 class="card-title"><?= $card2_title ?></h3>
+                            <p><?= $card2_text ?></p>
                         </div>
                     </div>
-                    <a href="<?=$_ENV['RUTA']?><?= $ruta_sobre_mi ?>" class="moduloBoton02">
-                        <span>Más sobre mi</span>
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/system/arrow-forward-outline.svg" alt="" title="">
+                    <a href="<?= $_ENV['RUTA'] ?><?= $ruta_sobre_mi ?>" class="moduloBoton02">
+                        <span><?= $more_about_text ?></span>
+                        <img src="<?= $_ENV['RUTA'] ?><?= $arrow_icon_src ?>" alt="<?= $arrow_icon_alt ?>" title="<?= $arrow_icon_title ?>">
                     </a>
                 </div>
-                <!-- hijo 2 -->
                 <div>
-                    <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/inicio/presentacion-1500.avif" alt="">
+                    <img src="<?= $_ENV['RUTA'] ?><?= $hero_image_src ?>" alt="<?= $hero_image_alt ?>" title="<?= $hero_image_title ?>">
                 </div>
             </article>
         </section>
 
         <section>
-
-            <!-- Artículo 02-bis -->
             <article class="art02-bis">
                 <div class="textos">
-                    <h2 class="title">Selección de proyectos destacados</h2>                  
-                    <p>A lo largo de mi trayectoria, he desarrollado soluciones para diversos sectores, desde e-commerce hasta sitios corporativos. Aquí presento una muestra de trabajos donde he liderado tanto la fase creativa como la implementación técnica, demostrando versatilidad y capacidad de adaptación a diferentes necesidades y lenguajes de programación.</p>
-                    <a href="<?=$_ENV['RUTA']?><?= $ruta_portfolio ?>" class="moduloBoton02">
-                        <span>Más información</span>
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/system/arrow-forward-outline.svg" alt="Ir a Nuestros productos" title="Más información">
+                    <h2 class="title"><?= $section02_title ?></h2>
+                    <p><?= $section02_paragraph ?></p>
+                    <a href="<?= $_ENV['RUTA'] ?><?= $ruta_portfolio ?>" class="moduloBoton02">
+                        <span><?= $more_info_text ?></span>
+                        <img src="<?= $_ENV['RUTA'] ?><?= $arrow_icon_src ?>" alt="<?= $arrow_icon_alt ?>" title="<?= $arrow_icon_title ?>">
                     </a>
                 </div>
 
-                <div class="imagenes">                    
-                    <a href="<?=$_ENV['RUTA']?><?= $ruta_branding ?>" title="Identidad Visual y Branding corporativo">
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/inicio/identidad-visual-brand.avif" alt="Identidad Visual y Branding corporativo" title="Identidad Visual y Branding corporativo">
-                        <h3 class="title">Identidad Visual y Branding corporativo</h3>
+                <div class="imagenes">
+                    <a href="<?= $_ENV['RUTA'] ?><?= $ruta_branding ?>" title="<?= $project1_link_title ?>">
+                        <img src="<?= $_ENV['RUTA'] ?><?= $project1_img_src ?>" alt="<?= $project1_img_alt ?>" title="<?= $project1_img_title ?>">
+                        <h3 class="title"><?= $project1_title ?></h3>
                     </a>
-                    <a href="<?=$_ENV['RUTA']?><?= $ruta_design ?>" title="Diseño de interfaces centradas en el usuario">
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/inicio/user-experience.avif" alt="Diseño de interfaces centradas en el usuario" title="Diseño de interfaces centradas en el usuario">
-                        <h3 class="title">Diseño de interfaces centradas en el usuario</h3>
+                    <a href="<?= $_ENV['RUTA'] ?><?= $ruta_design ?>" title="<?= $project2_link_title ?>">
+                        <img src="<?= $_ENV['RUTA'] ?><?= $project2_img_src ?>" alt="<?= $project2_img_alt ?>" title="<?= $project2_img_title ?>">
+                        <h3 class="title"><?= $project2_title ?></h3>
                     </a>
-                    <a href="<?=$_ENV['RUTA']?><?= $ruta_desarrollo ?>" title="Desarrollo a medida y ecosistemas CMS">
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/vistas/inicio/desarrollo-web.avif" alt="Desarrollo a medida y ecosistemas CMS" title="Desarrollo a medida y ecosistemas CMS">
-                        <h3 class="title">Desarrollo a medida y ecosistemas CMS</h3>
-                    </a>                    
+                    <a href="<?= $_ENV['RUTA'] ?><?= $ruta_desarrollo ?>" title="<?= $project3_link_title ?>">
+                        <img src="<?= $_ENV['RUTA'] ?><?= $project3_img_src ?>" alt="<?= $project3_img_alt ?>" title="<?= $project3_img_title ?>">
+                        <h3 class="title"><?= $project3_title ?></h3>
+                    </a>
                 </div>
             </article>
 
-
-            <!-- artículo 4 -->
             <article class="art04">
-                <h2>Opiniones: La experiencia de trabajar conmigo</h2>
-                <p>La confianza de mis compañeros es mi mejor carta de presentación. Tras años de proyectos, he cultivado relaciones profesionales basadas en la transparencia, el cumplimiento de plazos y la calidad técnica. Estas reseñas reflejan mi capacidad para integrarme en equipos multidisciplinares y aportar valor real desde el primer día.</p>
+                <h2><?= $section03_title ?></h2>
+                <p><?= $section03_paragraph ?></p>
                 <span class="ralla"></span>
                 <div class="contenedor-fichas">
                     <div class="ficha">
-                        <h3 class="ficha-title">E.E.A<br>Desarrolladora Web</h3>
-                        <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/avatar-01.png" alt="" title="">                        
-                        <p>"Ainhoa es una diseñadora gráfica y desarrolladora web todo-terreno...Es una gran profesional, responsable, proactiva con una gran iniciativa.."</p>
+                        <h3 class="ficha-title"><?= $testimonial1_name ?><br><?= $testimonial1_role ?></h3>
+                        <img src="<?= $_ENV['RUTA'] ?><?= $testimonial1_avatar_src ?>" alt="<?= $testimonial1_avatar_alt ?>" title="<?= $testimonial1_avatar_title ?>">
+                        <p><?= $testimonial1_quote ?></p>
                         <span class="ralla"></span>
                     </div>
 
                     <div class="ficha">
-                        <h3 class="ficha-title">J.M.V.<br>Gestor de proyectos</h3>
-                        <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/avatar-02.png" alt="" title="">                        
-                        <p>"Ainhoa siempre ha demostrado ser una persona honesta, trabajadora y en la que se puede confiar totalmente...con grandes cualidades para su trabajo..."</p>
+                        <h3 class="ficha-title"><?= $testimonial2_name ?><br><?= $testimonial2_role ?></h3>
+                        <img src="<?= $_ENV['RUTA'] ?><?= $testimonial2_avatar_src ?>" alt="<?= $testimonial2_avatar_alt ?>" title="<?= $testimonial2_avatar_title ?>">
+                        <p><?= $testimonial2_quote ?></p>
                         <span class="ralla"></span>
                     </div>
 
                     <div class="ficha">
-                        <h3 class="ficha-title">N.M.L.<br>Frontend Developer</h3>
-                        <img src="<?=$_ENV['RUTA']?>/assets/img/vistas/inicio/avatar-03.png" alt="" title="">                        
-                        <p>"Ainhoa es una persona multidisciplinar con un excelente gusto estético, lo que potencia su habilidad en el ámbito del diseño gráfico.."</p>
+                        <h3 class="ficha-title"><?= $testimonial3_name ?><br><?= $testimonial3_role ?></h3>
+                        <img src="<?= $_ENV['RUTA'] ?><?= $testimonial3_avatar_src ?>" alt="<?= $testimonial3_avatar_alt ?>" title="<?= $testimonial3_avatar_title ?>">
+                        <p><?= $testimonial3_quote ?></p>
                         <span class="ralla"></span>
                     </div>
-
                 </div>
-            </article>            
+            </article>
         </section>
-
     </main>
 
     <!-- FOOTER -->

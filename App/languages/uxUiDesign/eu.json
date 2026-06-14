@@ -1,44 +1,45 @@
 {
-    "title": "Branding",
-    "meta_description": "Zure negozioaren nortasuna komunikatzen duten ikus-sistemak diseinatzen ditut.",
-    "hero_h1": "Branding",
-    "hero_title": "Logotipotik harago",
-    "hero_description": "Zure negozioaren nortasuna komunikatzen duten ikus-sistemak diseinatzen ditut. Markaren mezua indartzen duten konbinazioak hautatzen ditut eta ikusizko inpaktua sortzen dute. Erabilera-arau argiak ezartzen ditut, komunikazio bisuala koherentea, profesionala eta helburuko publikoan emozio egokiak pizteko gai izan dadin.",
-    "hero_cta": "Jarri gurekin harremanetan",
+    "title": "Esperientzia eta Interfaze Diseinua (UX/UI)",
+    "meta_description": "Diseinu sistemak sortzen ditut zure negozioen pertsonalitatea komunikatzen dutenak.",
+    "class_header": "uxui",
+    "hero_h1": "UX/UI",
+    "hero_title": "UX/UI",
+    "hero_description": "Soluzio bat proposatu aurretik, arazoa aztertzen dut. Fluxu optimizatuen diseinua bidez, pauso ez-beharrikoak eta distrakzioak ezabatzen ditut. Nabigazio neurketaak sortzen ditut aplikasioaren edo webaren benetako portaera simulatzen dutenak. Proiektu eskalagaien kasuan, osagaien liburutegi berrerabilitaizak diseinatzen ditut.",
+    "hero_cta": "Deitu gaitzazu",
     "art_cta": "Kontaktua",
-    "art_cta_alt": "Joan kontaktura",
+    "art_cta_alt": "Joan kontaktuera",
     "gallery_images": [
         {
-            "src": "/assets/img/vistas/portfolio/branding/appdegestion.avif",
-            "alt": "Kudeaketa aplikazioa"
+            "src": "/assets/img/vistas/portfolio/ux-ui/ux-ui-01.avif",
+            "alt": "UX UI"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/arrivet.avif",
-            "alt": "Arrivet"
+            "src": "/assets/img/vistas/portfolio/ux-ui/ux-ui-02.avif",
+            "alt": "UX UI"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/kts.avif",
-            "alt": "KTS"
+            "src": "/assets/img/vistas/portfolio/ux-ui/ux-ui-03.avif",
+            "alt": "UX UI"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/ori-zautz.avif",
-            "alt": "Ori-Zautz"
+            "src": "/assets/img/vistas/portfolio/ux-ui/ux-ui-01.avif",
+            "alt": "UX UI"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/teknomai.avif",
-            "alt": "Teknomai"
+            "src": "/assets/img/vistas/portfolio/ux-ui/ux-ui-01.avif",
+            "alt": "UX UI"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/utilfor.avif",
-            "alt": "Utilfor"
+            "src": "/assets/img/vistas/portfolio/ux-ui/ux-ui-01.avif",
+            "alt": "UX UI"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/thn.avif",
-            "alt": "THN"
+            "src": "/assets/img/vistas/portfolio/ux-ui/ux-ui-01.avif",
+            "alt": "UX UI"
         },
         {
-            "src": "/assets/img/vistas/portfolio/branding/transformainteriores.avif",
-            "alt": "Transforma Interiores"
+            "src": "/assets/img/vistas/portfolio/ux-ui/ux-ui-01.avif",
+            "alt": "UX UI"
         }
     ]
 }

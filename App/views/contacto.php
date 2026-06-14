@@ -57,31 +57,31 @@
             <article class="artForm03">
                 <div>
                 <div class="contenedor-form">
-                    <img src="<?=$_ENV['RUTA'];?>/assets/img/system/ico-mail.svg" alt="">
+                    <img src="<?= $_ENV['RUTA'] ?><?= $form_icon_src ?>" alt="<?= $form_icon_alt ?>">
                     <div id="modal_envio_ok" class="modal_envio_ok">
                     <div>
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/system/ico-mail.svg" alt="">
-                        <p id="modal_envio_ok_msg" class="modal_envio_ok_msg">Gracias por tu email</p>
-                        <button id="volver_al_formulario" class="boton">Volver al formulario</button>
+                        <img src="<?= $_ENV['RUTA'] ?><?= $form_icon_src ?>" alt="<?= $form_icon_alt ?>">
+                        <p id="modal_envio_ok_msg" class="modal_envio_ok_msg"><?= $modal_success_text ?></p>
+                        <button id="volver_al_formulario" class="boton"><?= $modal_back_text ?></button>
                     </div>
                     </div>
                     <form id="idFormAjax">
                     <p class="error" id="errorForm03"></p>
                     <!--nombre-->
-                    <input type="text" id="nombreAjax" name="nombre" placeholder="Nombre *" value="<?php if(isset($error)){echo $nombre;} ?>">
+                    <input type="text" id="nombreAjax" name="nombre" placeholder="<?= $placeholder_name ?>" value="<?php if(isset($error)){echo $nombre;} ?>">
 
                     <!--telefono-->
-                    <input type="tel" id="telefonoAjax" name="telefono" placeholder="Teléfono *" value="<?php if(isset($error)){echo $telefono;} ?>">
+                    <input type="tel" id="telefonoAjax" name="telefono" placeholder="<?= $placeholder_phone ?>" value="<?php if(isset($error)){echo $telefono;} ?>">
 
                     <!--email-->
-                    <input type="text" id="emailAjax" name="email" placeholder="Email *" value="<?php if(isset($error)){echo $email;} ?>">
+                    <input type="text" id="emailAjax" name="email" placeholder="<?= $placeholder_email ?>" value="<?php if(isset($error)){echo $email;} ?>">
 
                     <!--mensaje-->
-                    <textarea name="mensaje" id="mensajeAjax" placeholder="Mensaje *"><?php if(isset($error)){echo $mensaje;} ?></textarea>
+                    <textarea name="mensaje" id="mensajeAjax" placeholder="<?= $placeholder_message ?>"><?php if(isset($error)){echo $mensaje;} ?></textarea>
 
                     <!--terminos-->
                     <div class="horizontal">
-                        <label for="terminosAjax">Aceptar términos y condiciones de la privacidad *</label>
+                        <label for="terminosAjax"><?= $label_terms ?></label>
                         <input type="checkbox" name="terminos" id="terminosAjax">
                     </div>
                     
@@ -93,11 +93,11 @@
                         <span id="num2ajax"></span>
                         <span>=</span>
                         <input type="hidden" name="respSystem" id="respSystemajax" value="">
-                        <input type="text" name="respUser" id="respuestaajax" placeholder="Resultado" autocomplete="off">
+                        <input type="text" name="respUser" id="respuestaajax" placeholder="<?= $placeholder_result ?>" autocomplete="off">
                     </div>
                     <input type="hidden" name="lang" value="<?= $lang ?>">
                     <input type="hidden" name="url" value="<?= $url ?>">
-                    <input type="submit" value="Enviar" class="boton" id="btnEnviarAjax">
+                    <input type="submit" value="<?= $button_submit ?>" class="boton" id="btnEnviarAjax">
                     </form>
                     
                     <div class="moduloLoader01" id="moduloLoader01">
@@ -120,25 +120,25 @@
                 </div>
                 
                 <div class="contenedor-info">
-                    <h1>¿Hablamos?</h1>
-                    <p>Si quieres contactar conmigo utiliza el formulario de al lado, en breve te responderé.</p>
+                    <h1><?= $contact_title ?></h1>
+                    <p><?= $contact_paragraph ?></p>
                     <ul>
                     <li>
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/system/ico-address.svg" alt="">
-                        <span>Zarautz (Gipuzkoa)</span>
+                        <img src="<?= $_ENV['RUTA'] ?><?= $address_icon_src ?>" alt="<?= $address_icon_alt ?>">
+                        <span><?= $contact_address ?></span>
                     </li>
                     <li>
-                        <a href="mailto:soy@ainhoagomez.com" target="_blank">
-                        <img src="<?=$_ENV['RUTA'];?>/assets/img/system/ico-mail.svg" alt="">
-                        <span>soy@ainhoagomez.com</span>
+                        <a href="mailto:<?= $contact_email ?>" target="_blank">
+                        <img src="<?= $_ENV['RUTA'] ?><?= $email_icon_src ?>" alt="<?= $email_icon_alt ?>">
+                        <span><?= $contact_email ?></span>
                         </a>
                     </li>
                     </ul>
                     <ul>
                         <li class="rrss">
 
-                            <a href="https://www.linkedin.com/in/ainhoa-gomez-vallejo/" title="Visita mi LinkedIn" target="_blank">
-                                <img src="http://localhost:3000/assets/img/system/logo-linkedin.svg" alt="Visita mi LinkedIn" title="Visita mi LinkedIn" width="30" height="30">
+                            <a href="<?= $linkedin_url ?>" title="<?= $linkedin_title ?>" target="_blank">
+                                <img src="<?= $linkedin_icon_src ?>" alt="<?= $linkedin_alt ?>" title="<?= $linkedin_title ?>" width="30" height="30">
                             </a>
 
                         </li>
